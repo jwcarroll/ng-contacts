@@ -17,7 +17,7 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(app) styles/vendor.css -->
     <!-- bower:css -->
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css({.tmp,app}) styles/main.css -->
@@ -37,10 +37,15 @@
         <h3>Codestock Contacts</h3>
     </div>
 
-    <div class="jumbotron">
-        <h1>{{header}}</h1>
-        <img src="images/codeStockFace.png" alt="Scary clown face">
-        <input class="form-control" type="text" ng-model="header"/>
+    <div class="row" ng-init="contacts=['Josh', 'Jason', 'Arlene', 'Cory']">
+        <div class="col-md-12">
+            <input class="form-control" ng-model="search" type="text"/>
+            <h1 ng-if="search">Showing contact with '{{search}}'</h1>
+            <div class="well" ng-repeat="contact in contacts | filter:search">
+                <h1>{{contact}}</h1>
+                <input class="form-control" type="text" ng-model="contact"/>
+            </div>
+        </div>
     </div>
 
     <div class="footer">
