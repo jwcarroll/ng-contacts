@@ -17,14 +17,14 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(app) styles/vendor.css -->
     <!-- bower:css -->
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css({.tmp,app}) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
 </head>
-<body>
+<body ng-app>
 <!--[if lt IE 7]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
     your browser</a> to improve your experience.</p>
@@ -38,9 +38,9 @@
     </div>
 
     <div class="jumbotron">
-        <h1>Worst. Demo. Ever.</h1>
+        <h1>{{header}}</h1>
         <img src="images/codeStockFace.png" alt="Scary clown face">
-        <p>Yes... yes it is.</p>
+        <input class="form-control" type="text" ng-model="header"/>
     </div>
 
     <div class="footer">
