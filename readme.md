@@ -57,3 +57,7 @@ Refactor data access into a service and inject into controller
 
   - Add service with all abstracted calls to $http
   - Replace direct calls to $http in contact list controller with new service
+
+##step-5.1
+
+Refactor page into partial view and configure routing

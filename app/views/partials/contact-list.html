@@ -1,0 +1,27 @@
+<div class="row">
+    <form role="form">
+        <div class="form-group">
+            <label for="searchText">Find A Contact</label>
+            <input id="searchText" class="form-control" type="text" ng-model="searchText"/>
+        </div>
+    </form>
+</div>
+
+<div class="row">
+    <div class="panel panel-default" ng-repeat="contact in ctrl.contacts | filter:searchText">
+        <div class="panel-heading">
+
+            <button type="button" ng-click="ctrl.deleteContact(contact)" class="close pull-right" aria-hidden="true">&times;</button>
+
+                <span class="h3">
+                    {{contact.lastName}}, {{contact.firstName}} <small>{{contact.dob | age}}</small>
+                </span>
+
+        </div>
+        <div class="panel-body" ng-if="contact.email || contact.phoneNumber">
+            <p ng-if="contact.email"><strong>Email: </strong>{{contact.email}}</p>
+
+            <p ng-if="contact.phoneNumber"><strong>Phone: </strong>{{contact.phoneNumber}}</p>
+        </div>
+    </div>
+</div>
