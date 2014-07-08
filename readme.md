@@ -50,3 +50,10 @@ Demonstrate pulling contacts from server using $http service
   - Briefly show API code, explain backend is irrelevant
   - Pull in contacts using $http from API
   - Replace client delete with $http delete
+
+##step-4.2
+
+Refactor data access into a service and inject into controller
+
+  - Add service with all abstracted calls to $http
+  - Replace direct calls to $http in contact list controller with new service
