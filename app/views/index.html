@@ -11,23 +11,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <base href="/">
-    <title></title>
+    <title>Codestock Contacts</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(app) styles/vendor.css -->
     <!-- bower:css -->
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
     <!-- endbower -->
-    <link rel="stylesheet" href="styles/kendo/kendo.common.core.css"/>
-    <link rel="stylesheet" href="styles/kendo/kendo.common-bootstrap.core.css"/>
-    <link rel="stylesheet" href="styles/kendo/kendo.bootstrap.css"/>
     <!-- endbuild -->
     <!-- build:css({.tmp,app}) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
 </head>
-<body ng-app="ngContactsApp">
+<body>
 <!--[if lt IE 7]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
     your browser</a> to improve your experience.</p>
@@ -35,11 +32,16 @@
 
 <!-- Add your site or application content here -->
 <div class="container">
-    <div ng-include="'partials/navbar'"></div>
 
-    <route-error></route-error>
+    <div class="header">
+        <h3>Codestock Contacts</h3>
+    </div>
 
-    <ng-view ng-if="!hasError"></ng-view>
+    <div class="jumbotron">
+        <h1>Worst. Demo. Ever.</h1>
+        <img src="images/codeStockFace.png" alt="Scary clown face">
+        <p>Yes... yes it is.</p>
+    </div>
 
     <div class="footer">
         <p>Made with ♥ by <a href="http://www.technofattie.com">Techno Fattie</a></p>
@@ -63,20 +65,9 @@
 <script src="bower_components/lodash/dist/lodash.compat.js"></script>
 <script src="bower_components/moment/moment.js"></script>
 <!-- endbower -->
-<script src="scripts/kendo/kendo.custom.js"></script>
-<script src="scripts/ui-bootstrap/ui-bootstrap-custom-0.10.0.js"></script>
-<script src="scripts/ui-bootstrap/ui-bootstrap-custom-tpls-0.10.0.js"></script>
 <!-- endbuild -->
 
 <!-- build:js({.tmp,app}) scripts/scripts.js -->
-<script src="scripts/app.js"></script>
-<script src="scripts/services/contactsService.js"></script>
-<script src="scripts/controllers/contactListController.js"></script>
-<script src="scripts/controllers/navbar.js"></script>
-<script src="scripts/controllers/contactController.js"></script>
-<script src="scripts/filters/ageFilter.js"></script>
-<script src="scripts/directives/route-error.js"></script>
-<script src="scripts/directives/kendo-datepicker.js"></script>
 <!-- endbuild -->
 </body>
 </html>
