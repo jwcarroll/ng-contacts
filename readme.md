@@ -21,3 +21,10 @@ More common directives showing **ng-init** and **ng-repeat** to showcase DOM tem
  - Include search input to show off **filter**
  - Use **ng-if** to show state based updates to UI
 
+##step-3.1
+
+Created a module, and moved data for contacts into controller registered with module
+
+  - Introduce <code>angular.module</code>
+  - Create simple controller
+    - Shows dependency injection of $scope
