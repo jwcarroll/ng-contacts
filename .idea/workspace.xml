@@ -23,13 +23,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="readme.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="readme.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="33" selection-start="2082" selection-end="2082" vertical-scroll-proportion="-16.851852" vertical-offset="820" max-vertical-offset="1377">
+            <state line="75" column="33" selection-start="2112" selection-end="2112" vertical-scroll-proportion="0.9363296" vertical-offset="775" max-vertical-offset="1377">
               <folding />
             </state>
           </provider>
@@ -65,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contactController.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="contactController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/contactController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="1428" selection-end="1428" vertical-scroll-proportion="1.5454545" vertical-offset="0" max-vertical-offset="1292">
+            <state line="18" column="16" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292">
               <folding>
                 <element signature="e#0#37#0" expanded="false" />
               </folding>
@@ -168,12 +168,12 @@
         <option value="$PROJECT_DIR$/app/scripts/controllers/menuController.js" />
         <option value="$PROJECT_DIR$/app/views/partials/navbar.html" />
         <option value="$PROJECT_DIR$/app/views/index.html" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/views/partials/main-menu.html" />
         <option value="$PROJECT_DIR$/app/views/partials/contact-list.html" />
         <option value="$PROJECT_DIR$/app/views/partials/contact-details.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/contactController.js" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -859,16 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="33" selection-start="2082" selection-end="2082" vertical-scroll-proportion="-16.851852" vertical-offset="820" max-vertical-offset="1377">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/partials/main-menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="21" selection-start="197" selection-end="197" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="221">
@@ -911,10 +901,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/contactController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1428" selection-end="1428" vertical-scroll-proportion="1.5454545" vertical-offset="0" max-vertical-offset="1292">
+        <state line="18" column="16" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292">
           <folding>
             <element signature="e#0#37#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="33" selection-start="2112" selection-end="2112" vertical-scroll-proportion="0.9363296" vertical-offset="775" max-vertical-offset="1377">
+          <folding />
         </state>
       </provider>
     </entry>
