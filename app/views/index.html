@@ -31,7 +31,7 @@
 <![endif]-->
 
 <!-- Add your site or application content here -->
-<div class="container" ng-controller="contactListCtrl">
+<div class="container" ng-controller="contactListCtrl as ctrl">
 
     <div class="header">
         <h3>Codestock Contacts</h3>
@@ -47,8 +47,10 @@
     </div>
 
     <div class="row">
-        <div class="panel panel-default" ng-repeat="contact in contacts | filter:searchText">
+        <div class="panel panel-default" ng-repeat="contact in ctrl.contacts | filter:searchText">
             <div class="panel-heading">
+
+                <button type="button" ng-click="ctrl.deleteContact(contact)" class="close pull-right" aria-hidden="true">&times;</button>
 
                 <span class="h3">
                     {{contact.lastName}}, {{contact.firstName}} <small>{{contact.dob}}</small>

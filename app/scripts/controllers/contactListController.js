@@ -1,11 +1,9 @@
 (function () {
 
-  var ContactListCtrl = function ($scope) {
-    this.$scope = $scope;
-
+  var ContactListCtrl = function () {
     this.initialize();
   };
-  ContactListCtrl.$inject = ['$scope'];
+  ContactListCtrl.$inject = [];
 
   angular.extend(ContactListCtrl.prototype, {
     contacts: [
@@ -36,8 +34,9 @@
     ],
     initialize: function () {
       var _this = this;
-
-      _this.$scope.contacts = this.contacts;
+    },
+    deleteContact: function(contact){
+      _.remove(this.contacts, contact);
     }
   });
 

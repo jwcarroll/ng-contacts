@@ -28,3 +28,11 @@ Created a module, and moved data for contacts into controller registered with mo
   - Introduce <code>angular.module</code>
   - Create simple controller
     - Shows dependency injection of $scope
+
+##step-3.2
+
+Add simple delete functionality, and introduce 'Controller As' syntax
+
+  - Add ability to delete contact
+    - Show **ng-click** for first time
+  - Modify controller to get rid of $scope
