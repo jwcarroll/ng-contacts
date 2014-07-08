@@ -42,3 +42,11 @@ Add simple delete functionality, and introduce 'Controller As' syntax
 Shows how to create a simple filter that transforms a Date object to a nicer display format
 
   - Create date filter using moment.js
+
+##step-4.1
+
+Demonstrate pulling contacts from server using $http service
+
+  - Briefly show API code, explain backend is irrelevant
+  - Pull in contacts using $http from API
+  - Replace client delete with $http delete

@@ -1,42 +1,28 @@
 (function () {
 
-  var ContactListCtrl = function () {
+  var ContactListCtrl = function ($http) {
+    this.$http = $http;
     this.initialize();
   };
-  ContactListCtrl.$inject = [];
+  ContactListCtrl.$inject = ['$http'];
 
   angular.extend(ContactListCtrl.prototype, {
-    contacts: [
-      {
-        firstName: 'Josh',
-        lastName: 'Carroll',
-        email: 'jwarren.carroll@gmail.com',
-        phoneNumber: '8655555555',
-        dob: new Date('6/22/1981')
-      },
-      {
-        firstName: 'Patty',
-        lastName: 'Carroll',
-        phoneNumber: '8655555555',
-        dob: new Date('1/23/1981')
-      },
-      {
-        firstName: 'Scott',
-        lastName: 'Hanselman',
-        email: 'scott@hanselman.com',
-        dob: new Date('1/22/1974')
-      },
-      {
-        firstName: 'Paul',
-        lastName: 'Irish',
-        dob: new Date('7/23/1982')
-      }
-    ],
+    contacts: [],
     initialize: function () {
       var _this = this;
+
+      _this.$http.get('/api/contacts')
+        .success(function(contacts){
+          _this.contacts = contacts;
+        });
     },
     deleteContact: function(contact){
-      _.remove(this.contacts, contact);
+      var _this = this;
+
+      _this.$http.delete('/api/contacts/' + contact._id)
+        .success(function(){
+          _.remove(_this.contacts, contact);
+        });
     }
   });
 
