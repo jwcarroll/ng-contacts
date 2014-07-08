@@ -14,7 +14,8 @@
             <button type="button" ng-click="ctrl.deleteContact(contact)" class="close pull-right" aria-hidden="true">&times;</button>
 
                 <span class="h3">
-                    {{contact.lastName}}, {{contact.firstName}} <small>{{contact.dob | age}}</small>
+                    <a ng-href="#/contact/{{contact._id}}">{{contact.lastName}}, {{contact.firstName}}</a>
+                    <small>{{contact.dob | age}}</small>
                 </span>
 
         </div>

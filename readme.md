@@ -61,3 +61,16 @@ Refactor data access into a service and inject into controller
 ##step-5.1
 
 Refactor page into partial view and configure routing
+
+  - Create '/views/partials/contact-list.html' and copy paste snippet from index.html into it
+  - Setup route and explain what is going on
+  - Replace HTML in index with **<ng-view>** and explain that directives can be elements
+
+##step-5.2 (Direct Checkout)
+
+Add in contact details controller and route to get there
+
+  - Show new route, view and controller
+  - Show new menu controller
+    - Explain use of **ng-include**
+  - Demo add/update functionality

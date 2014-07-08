@@ -33,9 +33,7 @@
 <!-- Add your site or application content here -->
 <div class="container">
 
-    <div class="header">
-        <h3>Codestock Contacts</h3>
-    </div>
+    <div ng-include="'partials/main-menu'"></div>
 
     <ng-view></ng-view>
 
@@ -65,6 +63,8 @@
 
 <!-- build:js({.tmp,app}) scripts/scripts.js -->
 <script src="scripts/app.js"></script>
+<script src="scripts/controllers/menuController.js"></script>
+<script src="scripts/controllers/contactController.js"></script>
 <script src="scripts/controllers/contactListController.js"></script>
 <script src="scripts/filters/age-filter.js"></script>
 <script src="scripts/services/contactsService.js"></script>
