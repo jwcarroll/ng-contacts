@@ -36,3 +36,9 @@ Add simple delete functionality, and introduce 'Controller As' syntax
   - Add ability to delete contact
     - Show **ng-click** for first time
   - Modify controller to get rid of $scope
+
+##step-3.3
+
+Shows how to create a simple filter that transforms a Date object to a nicer display format
+
+  - Create date filter using moment.js

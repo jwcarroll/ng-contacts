@@ -53,7 +53,7 @@
                 <button type="button" ng-click="ctrl.deleteContact(contact)" class="close pull-right" aria-hidden="true">&times;</button>
 
                 <span class="h3">
-                    {{contact.lastName}}, {{contact.firstName}} <small>{{contact.dob}}</small>
+                    {{contact.lastName}}, {{contact.firstName}} <small>{{contact.dob | age}}</small>
                 </span>
 
             </div>
@@ -92,6 +92,7 @@
 <!-- build:js({.tmp,app}) scripts/scripts.js -->
 <script src="scripts/app.js"></script>
 <script src="scripts/controllers/contactListController.js"></script>
+<script src="scripts/filters/age-filter.js"></script>
 <!-- endbuild -->
 </body>
 </html>

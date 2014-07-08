@@ -26,10 +26,10 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="1945" selection-end="1945" vertical-scroll-proportion="-8.038462" vertical-offset="692" max-vertical-offset="1751">
+            <state line="53" column="0" selection-start="1945" selection-end="1945" vertical-scroll-proportion="9.807693" vertical-offset="1156" max-vertical-offset="1768">
               <folding>
-                <marker date="1404789988668" expanded="true" signature="995:1148" placeholder="..." />
-                <marker date="1404789988668" expanded="true" signature="1088:1116" placeholder="..." />
+                <marker date="1404791029683" expanded="true" signature="995:1148" placeholder="..." />
+                <marker date="1404791029683" expanded="true" signature="1088:1116" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -50,7 +50,9 @@
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/contactListController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
-              <folding />
+              <folding>
+                <marker date="1404789731950" expanded="true" signature="13:1010" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,8 +81,19 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="42" selection-start="989" selection-end="989" vertical-scroll-proportion="0.8079096" vertical-offset="200" max-vertical-offset="731">
+            <state line="43" column="38" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.8079096" vertical-offset="302" max-vertical-offset="833">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="age-filter.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/filters/age-filter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+              <folding>
+                <element signature="e#0#37#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,8 +153,9 @@
         <option value="$PROJECT_DIR$/lib/controllers/api.js" />
         <option value="$PROJECT_DIR$/app/views/partials/contact-list.html" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/contactListController.js" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/app/scripts/filters/date-filter.js" />
         <option value="$PROJECT_DIR$/app/views/index.html" />
       </list>
     </option>
@@ -312,6 +326,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-codestock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-codestock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filters" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -631,7 +667,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/bower_components/angular/angular.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7188" column="0" selection-start="246034" selection-end="246034" vertical-scroll-proportion="0.36713997" vertical-offset="122015" max-vertical-offset="369291" />
+        <state line="7188" column="0" selection-start="246034" selection-end="246034" vertical-scroll-proportion="0.36713997" vertical-offset="122015" max-vertical-offset="369291">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/routes.js">
@@ -689,16 +727,27 @@
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/contactListController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
-          <folding />
+          <folding>
+            <marker date="1404789731950" expanded="true" signature="13:1010" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/filters/age-filter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <folding>
+            <element signature="e#0#37#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1945" selection-end="1945" vertical-scroll-proportion="-8.038462" vertical-offset="692" max-vertical-offset="1751">
+        <state line="53" column="0" selection-start="1945" selection-end="1945" vertical-scroll-proportion="9.807693" vertical-offset="1156" max-vertical-offset="1768">
           <folding>
-            <marker date="1404789988668" expanded="true" signature="995:1148" placeholder="..." />
-            <marker date="1404789988668" expanded="true" signature="1088:1116" placeholder="..." />
+            <marker date="1404791029683" expanded="true" signature="995:1148" placeholder="..." />
+            <marker date="1404791029683" expanded="true" signature="1088:1116" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -708,7 +757,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="42" selection-start="989" selection-end="989" vertical-scroll-proportion="0.8079096" vertical-offset="200" max-vertical-offset="731">
+        <state line="43" column="38" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.8079096" vertical-offset="302" max-vertical-offset="833">
           <folding />
         </state>
       </provider>
