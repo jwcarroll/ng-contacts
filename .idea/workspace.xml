@@ -26,7 +26,7 @@
       <file leaf-file-name="readme.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="0" selection-start="2113" selection-end="2113" vertical-scroll-proportion="-7.740741" vertical-offset="1083" max-vertical-offset="1632">
+            <state line="76" column="0" selection-start="2113" selection-end="2113" vertical-scroll-proportion="0.0" vertical-offset="1083" max-vertical-offset="1632">
               <folding />
             </state>
           </provider>
@@ -50,7 +50,7 @@
       <file leaf-file-name="contact-details.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/partials/contact-details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="39" selection-start="152" selection-end="152" vertical-scroll-proportion="-0.23076923" vertical-offset="28" max-vertical-offset="680">
+            <state line="2" column="39" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="680">
               <folding>
                 <marker date="1404864687419" expanded="true" signature="16:2582" placeholder="..." />
                 <marker date="1404864687419" expanded="true" signature="650:983" placeholder="..." />
@@ -73,7 +73,7 @@
       <file leaf-file-name="route-error.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/directives/route-error.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="517" selection-end="517" vertical-scroll-proportion="0.7083333" vertical-offset="0" max-vertical-offset="578">
+            <state line="17" column="0" selection-start="398" selection-end="398" vertical-scroll-proportion="0.5017361" vertical-offset="0" max-vertical-offset="578">
               <folding />
             </state>
           </provider>
@@ -82,7 +82,7 @@
       <file leaf-file-name="age-filter.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/filters/age-filter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+            <state line="18" column="0" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
@@ -91,10 +91,10 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="21" selection-start="859" selection-end="859" vertical-scroll-proportion="-11.769231" vertical-offset="51" max-vertical-offset="1411">
+            <state line="21" column="21" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1411">
               <folding>
-                <marker date="1404871303530" expanded="true" signature="1084:1237" placeholder="..." />
-                <marker date="1404871303530" expanded="true" signature="1177:1205" placeholder="..." />
+                <marker date="1404872682876" expanded="true" signature="1084:1237" placeholder="..." />
+                <marker date="1404872682876" expanded="true" signature="1177:1205" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -556,14 +556,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Node.js.AngularCodestock">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -572,6 +564,14 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -614,7 +614,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3089245" sideWeight="0.4996986" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3089245" sideWeight="0.4996986" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18505123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -646,9 +646,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3483146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -672,10 +672,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="21" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1411">
+          <folding>
+            <marker date="1404872682876" expanded="true" signature="1084:1237" placeholder="..." />
+            <marker date="1404872682876" expanded="true" signature="1177:1205" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="40" selection-start="2518" selection-end="2518" vertical-scroll-proportion="0.0" vertical-offset="604" max-vertical-offset="1343">
           <folding>
-            <marker date="1404871303530" expanded="true" signature="1084:1237" placeholder="..." />
-            <marker date="1404871303530" expanded="true" signature="1177:1205" placeholder="..." />
+            <marker date="1404872682876" expanded="true" signature="1084:1237" placeholder="..." />
+            <marker date="1404872682876" expanded="true" signature="1177:1205" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -690,9 +700,7 @@
     <entry file="file://$PROJECT_DIR$/app/scripts/services/contactsService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="697">
-          <folding>
-            <marker date="1404792757033" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -829,9 +837,7 @@
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/contactListController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <folding>
-            <marker date="1404792757064" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -863,9 +869,7 @@
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/menuController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <folding>
-            <marker date="1404797413097" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -886,9 +890,7 @@
     <entry file="file://$PROJECT_DIR$/app/scripts/services/contactsService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-          <folding>
-            <marker date="1404792757033" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -911,7 +913,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/partials/contact-details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="39" selection-start="152" selection-end="152" vertical-scroll-proportion="-0.23076923" vertical-offset="28" max-vertical-offset="680">
+        <state line="2" column="39" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="680">
           <folding>
             <marker date="1404864687419" expanded="true" signature="16:2582" placeholder="..." />
             <marker date="1404864687419" expanded="true" signature="650:983" placeholder="..." />
@@ -923,9 +925,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="49" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
+        <state line="15" column="49" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/filters/age-filter.js">
@@ -937,38 +937,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="4" selection-start="413" selection-end="413" vertical-scroll-proportion="0.49454546" vertical-offset="0" max-vertical-offset="550">
-          <folding />
-        </state>
+        <state line="16" column="4" selection-start="413" selection-end="413" vertical-scroll-proportion="0.49454546" vertical-offset="0" max-vertical-offset="550" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.bowerrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="398" column="26" selection-start="9719" selection-end="9719" vertical-scroll-proportion="9.798611" vertical-offset="1122" max-vertical-offset="8840">
-          <folding />
-        </state>
+        <state line="398" column="26" selection-start="9719" selection-end="9719" vertical-scroll-proportion="9.798611" vertical-offset="1122" max-vertical-offset="8840" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="21" selection-start="859" selection-end="859" vertical-scroll-proportion="-11.769231" vertical-offset="51" max-vertical-offset="1411">
+        <state line="21" column="21" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1411">
           <folding>
-            <marker date="1404871303530" expanded="true" signature="1084:1237" placeholder="..." />
-            <marker date="1404871303530" expanded="true" signature="1177:1205" placeholder="..." />
+            <marker date="1404872682876" expanded="true" signature="1084:1237" placeholder="..." />
+            <marker date="1404872682876" expanded="true" signature="1177:1205" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="0" selection-start="2113" selection-end="2113" vertical-scroll-proportion="-7.740741" vertical-offset="1083" max-vertical-offset="1632">
+        <state line="76" column="0" selection-start="2113" selection-end="2113" vertical-scroll-proportion="0.0" vertical-offset="1083" max-vertical-offset="1632">
           <folding />
         </state>
       </provider>
@@ -978,7 +972,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/directives/route-error.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="517" selection-end="517" vertical-scroll-proportion="0.7083333" vertical-offset="0" max-vertical-offset="578">
+        <state line="17" column="0" selection-start="398" selection-end="398" vertical-scroll-proportion="0.5017361" vertical-offset="0" max-vertical-offset="578">
           <folding />
         </state>
       </provider>
