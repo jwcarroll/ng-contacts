@@ -74,3 +74,11 @@ Add in contact details controller and route to get there
   - Show new menu controller
     - Explain use of **ng-include**
   - Demo add/update functionality
+
+##step-5.3 (Direct Checkout)
+
+Adds in form controller and client side error handling
+
+  - form controller
+    - **ng-class** to handle errors
+    - **ng-disabled** to enable/disable buttons based on form state

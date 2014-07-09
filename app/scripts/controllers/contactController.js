@@ -20,7 +20,7 @@
     _originalContact: {},
     hasError: false,
     errorMsg: '',
-    initialize: function(){
+    initialize: function () {
       var _this = this;
 
       if (angular.isDefined(this.$routeParams.contactId)) {
@@ -33,7 +33,7 @@
             _this.hasError = true;
             _this.errorMsg = error.msg;
           });
-      }else{
+      } else {
         _this.originalContact = {};
         _this.contact = {};
       }
@@ -44,9 +44,19 @@
       _this.contactsService.saveContact(_this.contact)
         .success(function () {
           _this.$location.path('/');
-        }).error(function (error) {
-          _this.hasError = true;
-          _this.errorMsg = error.msg || error.message;
+        }).error(function (result) {
+
+          _.each(result.errors, function (error, key) {
+            if (_.isUndefined(_this.form[key])) {
+              return;
+            }
+
+            //
+            // Setting form validity
+            //
+            _this.form[key].$dirty = true;
+            _this.form[key].$setValidity(error.type, false);
+          });
         });
     },
     delete: function () {
@@ -56,7 +66,7 @@
         .success(function () {
           _this.$location.path('/');
         }).error(function (error) {
-          if(angular.isUndefined(error)) return;
+          if (angular.isUndefined(error)) return;
 
           _this.hasError = true;
           _this.errorMsg = 'There was a problem trying to delete this contact: ' + (error.msg || error.message);
@@ -64,6 +74,33 @@
     },
     cancelChanges: function () {
       this.contact = angular.copy(this._originalContact);
+
+      //
+      // Resetting form error state
+      //
+      this.form.$setPristine();
+    },
+    getValidityClasses: function (controlName) {
+      var classes = [],
+        ctrl = this.form[controlName];
+
+      if (_.isUndefined(ctrl)) {
+        return classes;
+      }
+
+      if (ctrl.$dirty) {
+        classes.push('has-feedback');
+        classes.push(ctrl.$valid ? 'has-success' : 'has-error');
+      }
+
+      return classes;
+    },
+    getValidityIcon: function (controlName) {
+      var ctrl = this.form[controlName];
+
+      if (ctrl) {
+        return ctrl.$valid ? 'glyphicon-ok' : 'glyphicon-remove';
+      }
     }
   });
 
