@@ -82,3 +82,10 @@ Adds in form controller and client side error handling
   - form controller
     - **ng-class** to handle errors
     - **ng-disabled** to enable/disable buttons based on form state
+
+##step-6.1
+
+Create basic directive for handling route change errors
+
+  - Show basic structure of directive with inline template
+    - Shows '[E]lement' style directive

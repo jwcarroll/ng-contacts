@@ -13,7 +13,7 @@
           controllerAs: 'ctrl'
         })
         .when('/contact/:contactId?', {
-          templateUrl: 'partials/contact-details',
+          templateUrl: 'partials/contact-details-',
           controller: 'contactCtrl',
           controllerAs: 'ctrl'
         })
