@@ -8,7 +8,7 @@
     return {
       restrict: 'E',
       replace: true,
-      template: '<h1 ng-if="hasError">It blowed up!</h1>',
+      templateUrl: '/partials/route-error',
       link: function (scope, element, attrs) {
         scope.hasError = false;
 

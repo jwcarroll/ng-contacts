@@ -26,12 +26,21 @@
       <file leaf-file-name="readme.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="0" selection-start="2113" selection-end="2113" vertical-scroll-proportion="0.0" vertical-offset="1083" max-vertical-offset="1632">
+            <state line="96" column="0" selection-start="2552" selection-end="2552" vertical-scroll-proportion="-19.074074" vertical-offset="1117" max-vertical-offset="1734">
               <folding />
             </state>
           </provider>
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="route-error.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/partials/route-error.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="6" selection-start="504" selection-end="504" vertical-scroll-proportion="0.3709091" vertical-offset="0" max-vertical-offset="550">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -70,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="route-error.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="route-error.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/directives/route-error.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="398" selection-end="398" vertical-scroll-proportion="0.5017361" vertical-offset="0" max-vertical-offset="578">
+            <state line="12" column="31" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
               <folding />
             </state>
           </provider>
@@ -93,8 +102,8 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="21" column="21" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1411">
               <folding>
-                <marker date="1404872682876" expanded="true" signature="1084:1237" placeholder="..." />
-                <marker date="1404872682876" expanded="true" signature="1177:1205" placeholder="..." />
+                <marker date="1404872887495" expanded="true" signature="1084:1237" placeholder="..." />
+                <marker date="1404872887495" expanded="true" signature="1177:1205" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -140,9 +149,9 @@
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/app/views/index.html" />
-        <option value="$PROJECT_DIR$/app/views/partials/route-error.html" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/app/scripts/directives/route-error.js" />
+        <option value="$PROJECT_DIR$/app/views/partials/route-error.html" />
       </list>
     </option>
   </component>
@@ -609,13 +618,33 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1698" height="1020" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3089245" sideWeight="0.4996986" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951945" sideWeight="0.4996986" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18505123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39816934" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -672,20 +701,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="21" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1411">
-          <folding>
-            <marker date="1404872682876" expanded="true" signature="1084:1237" placeholder="..." />
-            <marker date="1404872682876" expanded="true" signature="1177:1205" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="40" selection-start="2518" selection-end="2518" vertical-scroll-proportion="0.0" vertical-offset="604" max-vertical-offset="1343">
           <folding>
-            <marker date="1404872682876" expanded="true" signature="1084:1237" placeholder="..." />
-            <marker date="1404872682876" expanded="true" signature="1177:1205" placeholder="..." />
+            <marker date="1404872887495" expanded="true" signature="1084:1237" placeholder="..." />
+            <marker date="1404872887495" expanded="true" signature="1177:1205" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -954,15 +973,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="21" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1411">
           <folding>
-            <marker date="1404872682876" expanded="true" signature="1084:1237" placeholder="..." />
-            <marker date="1404872682876" expanded="true" signature="1177:1205" placeholder="..." />
+            <marker date="1404872887495" expanded="true" signature="1084:1237" placeholder="..." />
+            <marker date="1404872887495" expanded="true" signature="1177:1205" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="0" selection-start="2113" selection-end="2113" vertical-scroll-proportion="0.0" vertical-offset="1083" max-vertical-offset="1632">
+        <state line="96" column="0" selection-start="2552" selection-end="2552" vertical-scroll-proportion="-19.074074" vertical-offset="1117" max-vertical-offset="1734">
           <folding />
         </state>
       </provider>
@@ -972,7 +991,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/directives/route-error.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="398" selection-end="398" vertical-scroll-proportion="0.5017361" vertical-offset="0" max-vertical-offset="578">
+        <state line="12" column="31" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/partials/route-error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="6" selection-start="504" selection-end="504" vertical-scroll-proportion="0.3709091" vertical-offset="0" max-vertical-offset="550">
           <folding />
         </state>
       </provider>

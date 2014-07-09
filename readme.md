@@ -89,3 +89,8 @@ Create basic directive for handling route change errors
 
   - Show basic structure of directive with inline template
     - Shows '[E]lement' style directive
+
+##step-6.2
+
+Replace inline template with **templateUrl**
+
