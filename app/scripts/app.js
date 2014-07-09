@@ -4,7 +4,7 @@
 (function () {
   'use strict';
 
-  angular.module('ngContactsApp', ['ngRoute'])
+  angular.module('ngContactsApp', ['ngRoute','ui.bootstrap'])
     .config(['$routeProvider', function ($routeProvider) {
       $routeProvider
         .when('/', {
@@ -13,9 +13,12 @@
           controllerAs: 'ctrl'
         })
         .when('/contact/:contactId?', {
-          templateUrl: 'partials/contact-details-',
+          templateUrl: 'partials/contact-details',
           controller: 'contactCtrl',
           controllerAs: 'ctrl'
+        })
+        .when('/bad-route',{
+          templateUrl:'partials/nope'
         })
         .otherwise({
           redirectTo: '/'

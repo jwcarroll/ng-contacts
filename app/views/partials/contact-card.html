@@ -1,0 +1,17 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+
+        <button type="button" ng-click="delete({contact:contact})" class="close pull-right" aria-hidden="true">&times;</button>
+
+    <span class="h3">
+        <a ng-href="#/contact/{{contact._id}}">{{contact.lastName}}, {{contact.firstName}}</a>
+        <small>{{contact.dob | age}}</small>
+    </span>
+
+    </div>
+    <div class="panel-body" ng-if="contact.email || contact.phoneNumber">
+        <p ng-if="contact.email"><strong>Email: </strong>{{contact.email}}</p>
+
+        <p ng-if="contact.phoneNumber"><strong>Phone: </strong>{{contact.phoneNumber}}</p>
+    </div>
+</div>

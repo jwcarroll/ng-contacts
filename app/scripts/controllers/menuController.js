@@ -14,6 +14,10 @@
       {
         'title': 'Add Contact',
         'link':'/contact'
+      },
+      {
+        'title':'???',
+        'link':'/bad-route'
       }
     ];
   };

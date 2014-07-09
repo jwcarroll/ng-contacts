@@ -4,16 +4,17 @@
 (function () {
   'use strict';
 
-  var ContactCtrl = function (contactsService, $location, $routeParams) {
+  var ContactCtrl = function (contactsService, $location, $routeParams, $modal) {
     var _this = this;
 
     _this.contactsService = contactsService;
     _this.$location = $location;
     _this.$routeParams = $routeParams;
+    _this.$modal = $modal;
 
     _this.initialize();
   };
-  ContactCtrl.$inject = ['contactsService', '$location', '$routeParams'];
+  ContactCtrl.$inject = ['contactsService', '$location', '$routeParams', '$modal'];
 
   angular.extend(ContactCtrl.prototype, {
     contact: {},
@@ -62,11 +63,23 @@
     delete: function () {
       var _this = this;
 
-      _this.contactsService.deleteContact(_this.contact._id)
-        .success(function () {
+      var _this = this,
+        modalInstance = _this.$modal.open({
+          templateUrl: 'partials/ok-cancel-dialog',
+          controller: 'DeleteContactCtrl as modal'
+        });
+
+      modalInstance.result
+        .then(function () {
+          return _this.contactsService.deleteContact(_this.contact._id);
+        }
+      ).then(function () {
           _this.$location.path('/');
-        }).error(function (error) {
-          if (angular.isUndefined(error)) return;
+        },
+        function (result) {
+          if (angular.isUndefined(result) || angular.isUndefined(result.data)) return;
+
+          var error = result.data;
 
           _this.hasError = true;
           _this.errorMsg = 'There was a problem trying to delete this contact: ' + (error.msg || error.message);

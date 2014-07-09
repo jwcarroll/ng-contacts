@@ -94,3 +94,10 @@ Create basic directive for handling route change errors
 
 Replace inline template with **templateUrl**
 
+##step-6.3 (Direct Checkout)
+
+Quick overview of more advanced directives and components
+
+  - kendo **date-picker** directive on add/edit screen
+  - contact card directive
+  - OK/Cancel dialog using ui-bootstrap

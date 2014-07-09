@@ -14,8 +14,8 @@
         <div class="form-group" ng-class="ctrl.getValidityClasses('dob')">
             <label class="control-label">DOB</label>
             <br/>
-            <input name="dob" ng-model="ctrl.contact.dob" class="form-control" />
-            <span ng-show="ctrl.form.dob.$dirty" class="glyphicon form-control-feedback" ng-class="ctrl.getValidityIcon('dob')"></span>
+            <input name="dob" ng-model="ctrl.contact.dob" style="width:100%;" type="date" date-picker />
+            <span ng-show="ctrl.form.dob.$dirty" class="glyphicon form-control-feedback feedback-kendo-fix" ng-class="ctrl.getValidityIcon('dob')"></span>
         </div>
         <div class="form-group" ng-class="ctrl.getValidityClasses('email')">
             <label class="control-label">Email</label>
