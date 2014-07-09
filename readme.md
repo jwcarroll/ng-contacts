@@ -101,3 +101,9 @@ Quick overview of more advanced directives and components
   - kendo **date-picker** directive on add/edit screen
   - contact card directive
   - OK/Cancel dialog using ui-bootstrap
+
+##step-7.0 (Direct Checkout)
+
+Preparatory step to showcase animations
+
+  - Drop in animations CSS files commented out

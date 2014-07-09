@@ -4,7 +4,7 @@
 (function () {
   'use strict';
 
-  angular.module('ngContactsApp', ['ngRoute','ui.bootstrap'])
+  angular.module('ngContactsApp', ['ngRoute','ui.bootstrap','ngAnimate'])
     .config(['$routeProvider', function ($routeProvider) {
       $routeProvider
         .when('/', {

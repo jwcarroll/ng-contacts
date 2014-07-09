@@ -19,6 +19,7 @@
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="bower_components/animate.css/animate.css" />
     <!-- endbower -->
     <link rel="stylesheet" href="styles/kendo/kendo.common.core.css"/>
     <link rel="stylesheet" href="styles/kendo/kendo.common-bootstrap.core.css"/>
@@ -26,6 +27,7 @@
     <!-- endbuild -->
     <!-- build:css({.tmp,app}) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    <!-- <link rel="stylesheet" href="styles/site-animations.css"> -->
     <!-- endbuild -->
 </head>
 <body ng-app="ngContactsApp">
@@ -39,9 +41,9 @@
 
     <div ng-include="'partials/main-menu'"></div>
 
-    <route-error></route-error>
+    <route-error class="view-animate"></route-error>
 
-    <ng-view ng-if="!hasError"></ng-view>
+    <div ng-view ng-if="!hasError" class="view-animate"></div>
 
     <div class="footer">
         <p>Made with ♥ by <a href="http://www.technofattie.com">Techno Fattie</a></p>
@@ -64,6 +66,7 @@
 <script src="bower_components/angular-route/angular-route.js"></script>
 <script src="bower_components/lodash/dist/lodash.compat.js"></script>
 <script src="bower_components/moment/moment.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
 <!-- endbower -->
 <script src="scripts/kendo/kendo.custom.js"></script>
 <script src="scripts/ui-bootstrap/ui-bootstrap-custom-0.10.0.js"></script>

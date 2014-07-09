@@ -6,6 +6,8 @@
 
   var AgeFilter = function () {
     return function (input) {
+      if(angular.isUndefined(input)) return '';
+
       var dob = moment(input),
         now = moment();
 
