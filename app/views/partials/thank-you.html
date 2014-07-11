@@ -1,0 +1,28 @@
+<div class="jumbotron" ng-init="step=500">
+    <div class="row">
+        <div class="col-md-2">
+            <img class="shaky top-left" show-after="{{step*20}}" src="/images/codeStockFace.png" alt="Scary clown face!">
+        </div>
+        <div class="col-md-8">
+            <h1 class="drop-in" show-after="{{step}}">Thank You!</h1>
+        </div>
+        <div class="col-md-2">
+            <img class="shaky top-right" show-after="{{step*20}}" src="/images/codeStockFace.png" alt="Scary clown face!">
+        </div>
+    </div>
+    <div class="row drop-in" show-after="{{step*2}}">
+        <h2>Give Me The <span class="text-danger"><strong>Codes</strong></span></h2>
+        <h2><a href="https://github.com/jwcarroll/ng-contacts">github.com/jwcarroll/ng-contacts</a></h2>
+    </div>
+    <div class="row drop-in" show-after="{{step*3}}">
+        <h2>Read My <span class="text-danger"><strong>Blog</strong></span>:</h2>
+        <h2><a href="http://www.technofattie.com">www.technofattie.com</a></h2>
+    </div>
+    <div class="row drop-in" show-after="{{step*4}}">
+       <h2>Follow Me on <span class="text-danger"><strong>Twitter</strong></span></h2>
+       <h2><a href="">@jwcarroll</a></h2>
+    </div>
+    <div class="row" show-after="{{step*5}}">
+        <h1><span class="fade-in-right-big" ng-repeat="letter in 'Wintellect is Awesome!!!' track by $index" show-after="{{step*6 + 100*$index}}">{{letter}}</span></h1>
+    </div>
+</div>

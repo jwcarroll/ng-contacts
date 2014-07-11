@@ -20,6 +20,9 @@
         .when('/bad-route',{
           templateUrl:'partials/nope'
         })
+        .when('/thank-you',{
+          templateUrl:'partials/thank-you'
+        })
         .otherwise({
           redirectTo: '/'
         });

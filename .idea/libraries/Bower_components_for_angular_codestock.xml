@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Bower components for angular-codestock" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/app/bower_components" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/bower_components" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

@@ -16,6 +16,10 @@
         'link':'/contact'
       },
       {
+        'title':'Thank You!',
+        'link':'/thank-you'
+      },
+      {
         'title':'???',
         'link':'/bad-route'
       }
