@@ -1,0 +1,226 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json ngcontacts@0.0.1 No repository field.
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ 'C:\\Dev\\angular-codestock',
+7 verbose install   [ 'express',
+7 verbose install     'morgan',
+7 verbose install     'body-parser',
+7 verbose install     'method-override',
+7 verbose install     'static-favicon',
+7 verbose install     'cookie-parser',
+7 verbose install     'express-session',
+7 verbose install     'errorhandler',
+7 verbose install     'compression',
+7 verbose install     'lodash',
+7 verbose install     'mongoose',
+7 verbose install     'ejs',
+7 verbose install     'grunt',
+7 verbose install     'grunt-autoprefixer',
+7 verbose install     'grunt-bower-install',
+7 verbose install     'grunt-concurrent',
+7 verbose install     'grunt-contrib-clean',
+7 verbose install     'grunt-contrib-coffee',
+7 verbose install     'grunt-contrib-compass',
+7 verbose install     'grunt-contrib-concat',
+7 verbose install     'grunt-contrib-copy',
+7 verbose install     'grunt-contrib-cssmin',
+7 verbose install     'grunt-contrib-htmlmin',
+7 verbose install     'grunt-contrib-imagemin',
+7 verbose install     'grunt-contrib-jshint',
+7 verbose install     'grunt-contrib-uglify',
+7 verbose install     'grunt-contrib-watch',
+7 verbose install     'grunt-google-cdn',
+7 verbose install     'grunt-newer',
+7 verbose install     'grunt-ngmin',
+7 verbose install     'grunt-rev',
+7 verbose install     'grunt-svgmin',
+7 verbose install     'grunt-usemin',
+7 verbose install     'jshint-stylish',
+7 verbose install     'load-grunt-tasks',
+7 verbose install     'time-grunt',
+7 verbose install     'grunt-express-server',
+7 verbose install     'grunt-open',
+7 verbose install     'connect-livereload',
+7 verbose install     'karma-ng-scenario',
+7 verbose install     'grunt-karma',
+7 verbose install     'karma-firefox-launcher',
+7 verbose install     'karma-script-launcher',
+7 verbose install     'karma-html2js-preprocessor',
+7 verbose install     'karma-jasmine',
+7 verbose install     'karma-chrome-launcher',
+7 verbose install     'requirejs',
+7 verbose install     'karma-requirejs',
+7 verbose install     'karma-coffee-preprocessor',
+7 verbose install     'karma-phantomjs-launcher',
+7 verbose install     'karma',
+7 verbose install     'karma-ng-html2js-preprocessor',
+7 verbose install     'grunt-mocha-test',
+7 verbose install     'supertest',
+7 verbose install     'should',
+7 verbose install     'grunt-env',
+7 verbose install     'grunt-node-inspector',
+7 verbose install     'grunt-nodemon',
+7 verbose install     'open' ] ]
+8 info preinstall ngcontacts@0.0.1
+9 warn package.json karma-ng-html2js-preprocessor@0.1.1 No README data
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping grunt-contrib-clean@~0.5.0 C:\Dev\angular-codestock
+12 verbose already installed skipping grunt-contrib-coffee@~0.7.0 C:\Dev\angular-codestock
+13 verbose already installed skipping grunt-contrib-compass@~0.6.0 C:\Dev\angular-codestock
+14 verbose already installed skipping grunt-contrib-concat@~0.3.0 C:\Dev\angular-codestock
+15 verbose already installed skipping grunt-contrib-copy@~0.4.1 C:\Dev\angular-codestock
+16 verbose already installed skipping grunt-contrib-cssmin@~0.7.0 C:\Dev\angular-codestock
+17 verbose already installed skipping grunt-contrib-htmlmin@~0.1.3 C:\Dev\angular-codestock
+18 verbose already installed skipping grunt-contrib-imagemin@~0.5.0 C:\Dev\angular-codestock
+19 verbose already installed skipping grunt-contrib-jshint@~0.7.1 C:\Dev\angular-codestock
+20 verbose already installed skipping grunt-contrib-uglify@~0.2.0 C:\Dev\angular-codestock
+21 verbose already installed skipping grunt-contrib-watch@~0.5.2 C:\Dev\angular-codestock
+22 verbose already installed skipping grunt-google-cdn@~0.2.0 C:\Dev\angular-codestock
+23 verbose already installed skipping grunt-newer@~0.5.4 C:\Dev\angular-codestock
+24 verbose already installed skipping grunt-ngmin@~0.0.2 C:\Dev\angular-codestock
+25 verbose already installed skipping grunt-rev@~0.1.0 C:\Dev\angular-codestock
+26 verbose already installed skipping grunt-svgmin@~0.2.0 C:\Dev\angular-codestock
+27 verbose already installed skipping grunt-usemin@~2.0.0 C:\Dev\angular-codestock
+28 verbose already installed skipping jshint-stylish@~0.1.3 C:\Dev\angular-codestock
+29 verbose already installed skipping load-grunt-tasks@~0.2.0 C:\Dev\angular-codestock
+30 verbose already installed skipping time-grunt@~0.2.1 C:\Dev\angular-codestock
+31 verbose already installed skipping grunt-express-server@~0.4.5 C:\Dev\angular-codestock
+32 verbose already installed skipping grunt-open@~0.2.0 C:\Dev\angular-codestock
+33 verbose already installed skipping connect-livereload@~0.3.0 C:\Dev\angular-codestock
+34 verbose already installed skipping karma-ng-scenario@~0.1.0 C:\Dev\angular-codestock
+35 verbose already installed skipping grunt-karma@~0.6.2 C:\Dev\angular-codestock
+36 verbose already installed skipping karma-firefox-launcher@~0.1.3 C:\Dev\angular-codestock
+37 verbose already installed skipping karma-script-launcher@~0.1.0 C:\Dev\angular-codestock
+38 verbose already installed skipping karma-html2js-preprocessor@~0.1.0 C:\Dev\angular-codestock
+39 verbose already installed skipping karma-jasmine@~0.2.0 C:\Dev\angular-codestock
+40 verbose already installed skipping karma-chrome-launcher@~0.1.2 C:\Dev\angular-codestock
+41 verbose already installed skipping requirejs@~2.1.10 C:\Dev\angular-codestock
+42 verbose already installed skipping karma-requirejs@~0.2.1 C:\Dev\angular-codestock
+43 verbose already installed skipping karma-coffee-preprocessor@~0.1.2 C:\Dev\angular-codestock
+44 verbose already installed skipping karma-phantomjs-launcher@~0.1.1 C:\Dev\angular-codestock
+45 verbose already installed skipping karma@~0.10.9 C:\Dev\angular-codestock
+46 verbose already installed skipping karma-ng-html2js-preprocessor@~0.1.0 C:\Dev\angular-codestock
+47 verbose already installed skipping grunt-mocha-test@~0.8.1 C:\Dev\angular-codestock
+48 verbose already installed skipping supertest@~0.8.2 C:\Dev\angular-codestock
+49 verbose already installed skipping should@~2.1.0 C:\Dev\angular-codestock
+50 verbose already installed skipping grunt-env@~0.4.1 C:\Dev\angular-codestock
+51 verbose already installed skipping grunt-node-inspector@~0.1.3 C:\Dev\angular-codestock
+52 verbose already installed skipping grunt-nodemon@~0.2.0 C:\Dev\angular-codestock
+53 verbose already installed skipping open@~0.0.4 C:\Dev\angular-codestock
+54 verbose already installed skipping express@~4.0.0 C:\Dev\angular-codestock
+55 verbose already installed skipping morgan@~1.0.0 C:\Dev\angular-codestock
+56 verbose already installed skipping body-parser@~1.0.0 C:\Dev\angular-codestock
+57 verbose already installed skipping method-override@~1.0.0 C:\Dev\angular-codestock
+58 verbose already installed skipping static-favicon@~1.0.1 C:\Dev\angular-codestock
+59 verbose already installed skipping cookie-parser@~1.0.1 C:\Dev\angular-codestock
+60 verbose already installed skipping express-session@~1.0.2 C:\Dev\angular-codestock
+61 verbose already installed skipping errorhandler@~1.0.0 C:\Dev\angular-codestock
+62 verbose already installed skipping compression@~1.0.1 C:\Dev\angular-codestock
+63 verbose already installed skipping lodash@~2.4.1 C:\Dev\angular-codestock
+64 verbose already installed skipping mongoose@~3.8.8 C:\Dev\angular-codestock
+65 verbose already installed skipping ejs@~0.8.4 C:\Dev\angular-codestock
+66 verbose already installed skipping grunt@~0.4.1 C:\Dev\angular-codestock
+67 verbose already installed skipping grunt-autoprefixer@~0.4.0 C:\Dev\angular-codestock
+68 verbose already installed skipping grunt-bower-install@~0.7.0 C:\Dev\angular-codestock
+69 verbose already installed skipping grunt-concurrent@~0.4.1 C:\Dev\angular-codestock
+70 silly resolved []
+71 info build C:\Dev\angular-codestock
+72 verbose linkStuff [ false, false, false, 'C:\\Dev' ]
+73 info linkStuff ngcontacts@0.0.1
+74 verbose linkBins ngcontacts@0.0.1
+75 verbose linkMans ngcontacts@0.0.1
+76 verbose rebuildBundles ngcontacts@0.0.1
+77 verbose rebuildBundles [ '.bin',
+77 verbose rebuildBundles   'body-parser',
+77 verbose rebuildBundles   'compression',
+77 verbose rebuildBundles   'connect-livereload',
+77 verbose rebuildBundles   'cookie-parser',
+77 verbose rebuildBundles   'edge',
+77 verbose rebuildBundles   'ejs',
+77 verbose rebuildBundles   'errorhandler',
+77 verbose rebuildBundles   'express',
+77 verbose rebuildBundles   'express-session',
+77 verbose rebuildBundles   'grunt',
+77 verbose rebuildBundles   'grunt-autoprefixer',
+77 verbose rebuildBundles   'grunt-bower-install',
+77 verbose rebuildBundles   'grunt-concurrent',
+77 verbose rebuildBundles   'grunt-contrib-clean',
+77 verbose rebuildBundles   'grunt-contrib-coffee',
+77 verbose rebuildBundles   'grunt-contrib-compass',
+77 verbose rebuildBundles   'grunt-contrib-concat',
+77 verbose rebuildBundles   'grunt-contrib-copy',
+77 verbose rebuildBundles   'grunt-contrib-cssmin',
+77 verbose rebuildBundles   'grunt-contrib-htmlmin',
+77 verbose rebuildBundles   'grunt-contrib-imagemin',
+77 verbose rebuildBundles   'grunt-contrib-jshint',
+77 verbose rebuildBundles   'grunt-contrib-uglify',
+77 verbose rebuildBundles   'grunt-contrib-watch',
+77 verbose rebuildBundles   'grunt-env',
+77 verbose rebuildBundles   'grunt-express-server',
+77 verbose rebuildBundles   'grunt-google-cdn',
+77 verbose rebuildBundles   'grunt-karma',
+77 verbose rebuildBundles   'grunt-mocha-test',
+77 verbose rebuildBundles   'grunt-newer',
+77 verbose rebuildBundles   'grunt-ngmin',
+77 verbose rebuildBundles   'grunt-node-inspector',
+77 verbose rebuildBundles   'grunt-nodemon',
+77 verbose rebuildBundles   'grunt-open',
+77 verbose rebuildBundles   'grunt-rev',
+77 verbose rebuildBundles   'grunt-svgmin',
+77 verbose rebuildBundles   'grunt-usemin',
+77 verbose rebuildBundles   'jshint-stylish',
+77 verbose rebuildBundles   'karma',
+77 verbose rebuildBundles   'karma-chrome-launcher',
+77 verbose rebuildBundles   'karma-coffee-preprocessor',
+77 verbose rebuildBundles   'karma-firefox-launcher',
+77 verbose rebuildBundles   'karma-html2js-preprocessor',
+77 verbose rebuildBundles   'karma-jasmine',
+77 verbose rebuildBundles   'karma-ng-html2js-preprocessor',
+77 verbose rebuildBundles   'karma-ng-scenario',
+77 verbose rebuildBundles   'karma-phantomjs-launcher',
+77 verbose rebuildBundles   'karma-requirejs',
+77 verbose rebuildBundles   'karma-script-launcher',
+77 verbose rebuildBundles   'load-grunt-tasks',
+77 verbose rebuildBundles   'lodash',
+77 verbose rebuildBundles   'method-override',
+77 verbose rebuildBundles   'mongoose',
+77 verbose rebuildBundles   'morgan',
+77 verbose rebuildBundles   'open',
+77 verbose rebuildBundles   'requirejs',
+77 verbose rebuildBundles   'should',
+77 verbose rebuildBundles   'static-favicon',
+77 verbose rebuildBundles   'supertest',
+77 verbose rebuildBundles   'time-grunt' ]
+78 verbose rebuild bundle C:\Dev\angular-codestock\node_modules\edge
+79 info build C:\Dev\angular-codestock\node_modules\edge
+80 info preinstall edge@0.9.3
+81 verbose linkStuff [ false,
+81 verbose linkStuff   false,
+81 verbose linkStuff   false,
+81 verbose linkStuff   'C:\\Dev\\angular-codestock\\node_modules' ]
+82 info linkStuff edge@0.9.3
+83 verbose linkBins edge@0.9.3
+84 verbose linkMans edge@0.9.3
+85 verbose rebuildBundles edge@0.9.3
+86 verbose rebuildBundles [ 'edge-cs' ]
+87 info install edge@0.9.3
+88 verbose unsafe-perm in lifecycle true
+89 info postinstall edge@0.9.3
+90 info install ngcontacts@0.0.1
+91 info postinstall ngcontacts@0.0.1
+92 info prepublish ngcontacts@0.0.1
+93 error peerinvalid The package karma-jasmine does not satisfy its siblings' peerDependencies requirements!
+93 error peerinvalid Peer karma@0.10.10 wants karma-jasmine@~0.1.0
+94 error System Windows_NT 6.2.9200
+95 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+96 error cwd C:\Dev\angular-codestock\test
+97 error node -v v0.10.32
+98 error npm -v 1.4.28
+99 error code EPEERINVALID
+100 verbose exit [ 1, true ]

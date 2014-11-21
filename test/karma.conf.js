@@ -9,13 +9,25 @@ module.exports = function(config) {
     autoWatch: true,
 
     // base path, that will be used to resolve files and exclude
-    basePath: '',
+    basePath: '../',
 
     // testing framework to use (jasmine/mocha/qunit/...)
     frameworks: ['jasmine'],
 
     // list of files / patterns to load in the browser
-    files: [],
+    files: [
+      'app/bower_components/angular/angular.js',
+      'app/bower_components/angular-mocks/angular-mocks.js',
+      'app/bower_components/angular-route/angular-route.js',
+      'app/bower_components/angular-animate/angular-animate.js',
+      'app/bower_components/lodash/dist/lodash.js',
+      'app/scripts/ui-bootstrap/ui-bootstrap-custom-*.js',
+      'app/scripts/app.js',
+      'app/scripts/controllers/*.js',
+      'app/scripts/filters/*.js',
+      'app/scripts/services/*.js',
+      'test/client/spec/controllers/*.js'
+    ],
 
     // list of files / patterns to exclude
     exclude: [],
@@ -37,6 +49,7 @@ module.exports = function(config) {
 
     // Which plugins to enable
     plugins: [
+      'karma-chrome-launcher',
       'karma-phantomjs-launcher',
       'karma-jasmine'
     ],

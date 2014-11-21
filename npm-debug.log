@@ -1,0 +1,645 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'update',
+1 verbose cli   'grunt-karma' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose request where is /grunt-karma
+6 verbose request registry https://registry.npmjs.org/
+7 verbose request id 8e0961c3d608a1d5
+8 verbose url raw /grunt-karma
+9 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-karma' ]
+10 verbose url resolved https://registry.npmjs.org/grunt-karma
+11 verbose request where is https://registry.npmjs.org/grunt-karma
+12 info trying registry request attempt 1 at 08:44:14
+13 verbose etag "C7C1NSROEPSWFY3A0OUU8NXA2"
+14 http GET https://registry.npmjs.org/grunt-karma
+15 http 304 https://registry.npmjs.org/grunt-karma
+16 silly registry.get cb [ 304,
+16 silly registry.get   { date: 'Fri, 21 Nov 2014 13:44:08 GMT',
+16 silly registry.get     server: 'Apache',
+16 silly registry.get     via: '1.1 varnish',
+16 silly registry.get     'last-modified': 'Fri, 21 Nov 2014 13:44:09 GMT',
+16 silly registry.get     'cache-control': 'max-age=60',
+16 silly registry.get     etag: '"C7C1NSROEPSWFY3A0OUU8NXA2"',
+16 silly registry.get     age: '0',
+16 silly registry.get     'x-served-by': 'cache-ord1732-ORD',
+16 silly registry.get     'x-cache': 'HIT',
+16 silly registry.get     'x-cache-hits': '1',
+16 silly registry.get     'x-timer': 'S1416577448.868923,VS0,VE272',
+16 silly registry.get     vary: 'Accept',
+16 silly registry.get     'content-length': '0',
+16 silly registry.get     'keep-alive': 'timeout=10, max=50',
+16 silly registry.get     connection: 'Keep-Alive' } ]
+17 verbose etag https://registry.npmjs.org/grunt-karma from cache
+18 info outdated updating [ [ 'C:\\Dev\\angular-codestock',
+18 info outdated     'grunt-karma',
+18 info outdated     '0.6.2',
+18 info outdated     '0.6.2',
+18 info outdated     '0.9.0',
+18 info outdated     '~0.6.2' ] ]
+19 verbose install where,what [ 'C:\\Dev\\angular-codestock', [ 'grunt-karma@0.6.2' ] ]
+20 verbose readDependencies using package.json deps
+21 verbose cache add [ 'grunt-karma@0.6.2', null ]
+22 verbose cache add name=undefined spec="grunt-karma@0.6.2" args=["grunt-karma@0.6.2",null]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'grunt-karma@0.6.2',
+23 verbose parsed url   path: 'grunt-karma@0.6.2',
+23 verbose parsed url   href: 'grunt-karma@0.6.2' }
+24 verbose cache add name="grunt-karma" spec="0.6.2" args=["grunt-karma","0.6.2"]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: '0.6.2',
+25 verbose parsed url   path: '0.6.2',
+25 verbose parsed url   href: '0.6.2' }
+26 verbose addNamed [ 'grunt-karma', '0.6.2' ]
+27 verbose addNamed [ '0.6.2', '0.6.2' ]
+28 silly lockFile 5237908c-grunt-karma-0-6-2 grunt-karma@0.6.2
+29 verbose lock grunt-karma@0.6.2 C:\Users\Josh\AppData\Roaming\npm-cache\5237908c-grunt-karma-0-6-2.lock
+30 verbose registry.get https://registry.npmjs.org/grunt-karma not expired, no request
+31 silly lockFile 5237908c-grunt-karma-0-6-2 grunt-karma@0.6.2
+32 silly lockFile 5237908c-grunt-karma-0-6-2 grunt-karma@0.6.2
+33 silly resolved [ { name: 'grunt-karma',
+33 silly resolved     version: '0.6.2',
+33 silly resolved     description: 'grunt plugin for karma test runner',
+33 silly resolved     main: 'tasks/grunt-karma.js',
+33 silly resolved     repository:
+33 silly resolved      { type: 'git',
+33 silly resolved        url: 'https://github.com/karma-runner/grunt-karma.git' },
+33 silly resolved     keywords: [ 'gruntplugin', 'karma', 'grunt', 'test', 'unit', 'runner', 'TDD' ],
+33 silly resolved     scripts: { test: 'grunt test' },
+33 silly resolved     author: { name: 'Dave Geddes' },
+33 silly resolved     license: 'MIT',
+33 silly resolved     readmeFilename: 'README.md',
+33 silly resolved     dependencies: { optimist: '~0.6.0' },
+33 silly resolved     devDependencies:
+33 silly resolved      { grunt: '~0.4.1',
+33 silly resolved        'expect.js': '~0.2.0',
+33 silly resolved        'grunt-release': '~0.5.1',
+33 silly resolved        'grunt-contrib-watch': '~0.2.0',
+33 silly resolved        'grunt-conventional-changelog': '~0.0.12',
+33 silly resolved        'karma-mocha': '~0.1.0' },
+33 silly resolved     peerDependencies: { grunt: '0.4.x', karma: '~0.10.0' },
+33 silly resolved     readme: '#grunt-karma\nGrunt plugin for [Karma](https://github.com/karma-runner/karma)\nNOTE: this plugin requires Grunt 0.4.x\n\n##Getting Started\nFrom the same directory as your project\'s Gruntfile and package.json, install this plugin with the following command:\n\n`npm install grunt-karma --save-dev`\n\nNote that even numbered minor releases follow Karma\'s stable channel, while odd numbers follow the unstable channel. So grunt-karma@0.6.x goes with karma@0.10.x, while grunt-karma@0.7.x goes with karma@0.11.x\n\nOnce that\'s done, add this line to your project\'s Gruntfile:\n\n```js\ngrunt.loadNpmTasks(\'grunt-karma\');\n```\n\n##Config\nInside your `Gruntfile.js` file, add a section named *karma*, containing any number of configurations for running karma. You can either put your config in a [karma config file](http://karma-runner.github.com/0.8/config/configuration-file.html) or leave it all in your Gruntfile (recommended). \n\n###Here\'s an example that points to the config file:\n\n```js\nkarma: {\n  unit: {\n    configFile: \'karma.conf.js\'\n  }\n}\n```\n\n###Here\'s an example that puts the config in the Gruntfile:\n\n```js\nkarma: {\n  unit: {\n    options: {\n      files: [\'test/**/*.js\']\n    }\n  }\n}\n```\n\nYou can override any of the config file\'s settings by putting them directly in the Gruntfile:\n\n```js\nkarma: {\n  unit: {\n    configFile: \'karma.conf.js\',\n    runnerPort: 9999,\n    singleRun: true,\n    browsers: [\'PhantomJS\']\n  }\n}\n```\n\n##Sharing Configs\nIf you have multiple targets, it may be helpful to share common configuration settings between them. Grunt-karma supports this by using the `options` property:\n\n```js\nkarma: {\n  options: {\n    configFile: \'karma.conf.js\',\n    runnerPort: 9999,\n    browsers: [\'Chrome\', \'Firefox\']\n  },\n  continuous: {\n    singleRun: true,\n    browsers: [\'PhantomJS\']\n  },\n  dev: {\n    reporters: \'dots\'\n  }\n}\n```\n\nIn this example the `continuous` and `dev` targets will both use the `configFile` and `runnerPort` specified in the `options`. But the `continuous` target will override the browser setting to use PhantomJS, and also run as a singleRun. The `dev` target will simply change the reporter to dots.\n\n##Running tests\nThere are three ways to run your tests with karma:\n\n###Karma Server with Auto Runs on File Change\nSetting the `autoWatch` option to true will instruct karma to start a server and watch for changes to files, running tests automatically:\n\n```js\nkarma: {\n  unit: {\n    configFile: \'karma.conf.js\',\n    autoWatch: true\n  }\n}\n```\nNow run `$ grunt karma`\n\n###Karma Server with Grunt Watch\nMany Grunt projects watch several types of files using [grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch).\nConfig karma like usual (without the autoWatch option), and add `background:true`:\n\n```js\nkarma: {\n  unit: {\n    configFile: \'karma.conf.js\',\n    background: true\n  }\n}\n```\nThe `background` option will tell grunt to run karma in a child process so it doesn\'t block subsequent grunt tasks.\n\nConfig your `watch` task to run the karma task with the `:run` flag. For example:\n\n```js\nwatch: {\n  //run unit tests with karma (server needs to be already running)\n  karma: {\n    files: [\'app/js/**/*.js\', \'test/browser/**/*.js\'],\n    tasks: [\'karma:unit:run\'] //NOTE the :run flag\n  }\n},\n```\n\nIn your terminal window run `$ grunt karma:unit watch`, which runs both the karma task and the watch task. Now when grunt watch detects a change to one of your watched files, it will run the tests specified in the `unit` target using the already running karma server. This is the preferred method for development.\n\n###Single Run\nKeeping a browser window & karma server running during development is productive, but not a good solution for build processes. For that reason karma provides a "continuous integration" mode, which will launch the specified browser(s), run the tests, and close the browser(s). It also supports running tests in [PhantomJS](http://phantomjs.org/), a headless webkit browser which is great for running tests as part of a build. To run tests in continous integration mode just add the `singleRun` option:\n\n```js\nkarma: {\n  unit: {\n    configFile: \'config/karma.conf.js\',\n  },\n  //continuous integration mode: run tests once in PhantomJS browser.\n  continuous: {\n    configFile: \'config/karma.conf.js\',\n    singleRun: true,\n    browsers: [\'PhantomJS\']\n  },\n}\n```\n\nThe build would then run `grunt karma:continuous` to start PhantomJS, run tests, and close PhantomJS.\n\n##Grep / Passing Options to Karma Adapters\nAny cli args will be automatically parsed and sent on to adapters in the `config.args` property. So for example to use Mocha\'s useful `grep` feature, run grunt-karma like so: \n\n```\ngrunt karma:dev watch --grep=mypattern\n```\n\nNote that adapters like [karma-mocha](https://github.com/karma-runner/karma-mocha) have to support the args you\'re wanting to pass to them.\n\n##License\nMIT License\n',
+33 silly resolved     bugs: { url: 'https://github.com/karma-runner/grunt-karma/issues' },
+33 silly resolved     homepage: 'https://github.com/karma-runner/grunt-karma',
+33 silly resolved     _id: 'grunt-karma@0.6.2',
+33 silly resolved     _from: 'grunt-karma@0.6.2' } ]
+34 info install grunt-karma@0.6.2 into C:\Dev\angular-codestock
+35 info installOne grunt-karma@0.6.2
+36 verbose node_modules\grunt-karma unbuild
+37 info preuninstall grunt-karma@0.6.2
+38 info uninstall grunt-karma@0.6.2
+39 verbose true,C:\Dev\angular-codestock\node_modules,C:\Dev\angular-codestock\node_modules unbuild grunt-karma@0.6.2
+40 info postuninstall grunt-karma@0.6.2
+41 verbose tar unpack C:\Users\Josh\AppData\Roaming\npm-cache\grunt-karma\0.6.2\package.tgz
+42 silly lockFile 8eaf09a7-destock-node-modules-grunt-karma tar://C:\Dev\angular-codestock\node_modules\grunt-karma
+43 verbose lock tar://C:\Dev\angular-codestock\node_modules\grunt-karma C:\Users\Josh\AppData\Roaming\npm-cache\8eaf09a7-destock-node-modules-grunt-karma.lock
+44 silly lockFile b7d43063-he-grunt-karma-0-6-2-package-tgz tar://C:\Users\Josh\AppData\Roaming\npm-cache\grunt-karma\0.6.2\package.tgz
+45 verbose lock tar://C:\Users\Josh\AppData\Roaming\npm-cache\grunt-karma\0.6.2\package.tgz C:\Users\Josh\AppData\Roaming\npm-cache\b7d43063-he-grunt-karma-0-6-2-package-tgz.lock
+46 silly gunzTarPerm modes [ '777', '666' ]
+47 silly gunzTarPerm extractEntry package.json
+48 silly gunzTarPerm extractEntry .npmignore
+49 silly gunzTarPerm extractEntry README.md
+50 silly gunzTarPerm extractEntry LICENSE
+51 silly gunzTarPerm extractEntry Gruntfile.js
+52 silly gunzTarPerm extractEntry CHANGELOG.md
+53 silly gunzTarPerm extractEntry .idea/.name
+54 silly gunzTarPerm extractEntry .idea/dictionaries/dave.xml
+55 silly gunzTarPerm extractEntry .idea/encodings.xml
+56 silly gunzTarPerm extractEntry .idea/grunt-karma.iml
+57 silly gunzTarPerm extractEntry .idea/inspectionProfiles/profiles_settings.xml
+58 silly gunzTarPerm extractEntry .idea/inspectionProfiles/Project_Default.xml
+59 silly gunzTarPerm extractEntry .idea/misc.xml
+60 silly gunzTarPerm extractEntry .idea/modules.xml
+61 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+62 silly gunzTarPerm extractEntry .idea/vcs.xml
+63 silly gunzTarPerm extractEntry .idea/workspace.xml
+64 silly gunzTarPerm extractEntry lib/background.js
+65 silly gunzTarPerm extractEntry tasks/grunt-karma.js
+66 silly gunzTarPerm extractEntry test/grunt-karma-test.js
+67 silly gunzTarPerm extractEntry TODO.md
+68 silly lockFile 8eaf09a7-destock-node-modules-grunt-karma tar://C:\Dev\angular-codestock\node_modules\grunt-karma
+69 silly lockFile 8eaf09a7-destock-node-modules-grunt-karma tar://C:\Dev\angular-codestock\node_modules\grunt-karma
+70 silly lockFile b7d43063-he-grunt-karma-0-6-2-package-tgz tar://C:\Users\Josh\AppData\Roaming\npm-cache\grunt-karma\0.6.2\package.tgz
+71 silly lockFile b7d43063-he-grunt-karma-0-6-2-package-tgz tar://C:\Users\Josh\AppData\Roaming\npm-cache\grunt-karma\0.6.2\package.tgz
+72 info preinstall grunt-karma@0.6.2
+73 verbose readDependencies using package.json deps
+74 verbose readDependencies using package.json deps
+75 verbose cache add [ 'optimist@~0.6.0', null ]
+76 verbose cache add name=undefined spec="optimist@~0.6.0" args=["optimist@~0.6.0",null]
+77 verbose parsed url { protocol: null,
+77 verbose parsed url   slashes: null,
+77 verbose parsed url   auth: null,
+77 verbose parsed url   host: null,
+77 verbose parsed url   port: null,
+77 verbose parsed url   hostname: null,
+77 verbose parsed url   hash: null,
+77 verbose parsed url   search: null,
+77 verbose parsed url   query: null,
+77 verbose parsed url   pathname: 'optimist@~0.6.0',
+77 verbose parsed url   path: 'optimist@~0.6.0',
+77 verbose parsed url   href: 'optimist@~0.6.0' }
+78 verbose cache add name="optimist" spec="~0.6.0" args=["optimist","~0.6.0"]
+79 verbose parsed url { protocol: null,
+79 verbose parsed url   slashes: null,
+79 verbose parsed url   auth: null,
+79 verbose parsed url   host: null,
+79 verbose parsed url   port: null,
+79 verbose parsed url   hostname: null,
+79 verbose parsed url   hash: null,
+79 verbose parsed url   search: null,
+79 verbose parsed url   query: null,
+79 verbose parsed url   pathname: '~0.6.0',
+79 verbose parsed url   path: '~0.6.0',
+79 verbose parsed url   href: '~0.6.0' }
+80 verbose addNamed [ 'optimist', '~0.6.0' ]
+81 verbose addNamed [ null, '>=0.6.0-0 <0.7.0-0' ]
+82 silly lockFile 07193858-optimist-0-6-0 optimist@~0.6.0
+83 verbose lock optimist@~0.6.0 C:\Users\Josh\AppData\Roaming\npm-cache\07193858-optimist-0-6-0.lock
+84 silly addNameRange { name: 'optimist', range: '>=0.6.0-0 <0.7.0-0', hasData: false }
+85 verbose request where is /optimist
+86 verbose request registry https://registry.npmjs.org/
+87 verbose url raw /optimist
+88 verbose url resolving [ 'https://registry.npmjs.org/', './optimist' ]
+89 verbose url resolved https://registry.npmjs.org/optimist
+90 verbose request where is https://registry.npmjs.org/optimist
+91 info trying registry request attempt 1 at 08:44:16
+92 verbose etag "9MXHLZQO8T9THFU1OW8TBO8BR"
+93 http GET https://registry.npmjs.org/optimist
+94 http 304 https://registry.npmjs.org/optimist
+95 silly registry.get cb [ 304,
+95 silly registry.get   { date: 'Fri, 21 Nov 2014 13:44:10 GMT',
+95 silly registry.get     server: 'Apache',
+95 silly registry.get     via: '1.1 varnish',
+95 silly registry.get     'last-modified': 'Fri, 21 Nov 2014 13:31:45 GMT',
+95 silly registry.get     'cache-control': 'max-age=60',
+95 silly registry.get     etag: '"9MXHLZQO8T9THFU1OW8TBO8BR"',
+95 silly registry.get     age: '48',
+95 silly registry.get     'x-served-by': 'cache-ord1734-ORD',
+95 silly registry.get     'x-cache': 'HIT',
+95 silly registry.get     'x-cache-hits': '76',
+95 silly registry.get     'x-timer': 'S1416577450.215452,VS0,VE0',
+95 silly registry.get     vary: 'Accept',
+95 silly registry.get     'content-length': '0',
+95 silly registry.get     'keep-alive': 'timeout=10, max=50',
+95 silly registry.get     connection: 'Keep-Alive' } ]
+96 verbose etag https://registry.npmjs.org/optimist from cache
+97 silly addNameRange number 2 { name: 'optimist', range: '>=0.6.0-0 <0.7.0-0', hasData: true }
+98 silly addNameRange versions [ 'optimist',
+98 silly addNameRange   [ '0.0.1',
+98 silly addNameRange     '0.0.2',
+98 silly addNameRange     '0.0.4',
+98 silly addNameRange     '0.0.5',
+98 silly addNameRange     '0.0.6',
+98 silly addNameRange     '0.0.7',
+98 silly addNameRange     '0.1.0',
+98 silly addNameRange     '0.1.1',
+98 silly addNameRange     '0.1.2',
+98 silly addNameRange     '0.1.3',
+98 silly addNameRange     '0.1.4',
+98 silly addNameRange     '0.1.5',
+98 silly addNameRange     '0.1.6',
+98 silly addNameRange     '0.1.7',
+98 silly addNameRange     '0.1.8',
+98 silly addNameRange     '0.1.9',
+98 silly addNameRange     '0.0.3',
+98 silly addNameRange     '0.2.0',
+98 silly addNameRange     '0.2.1',
+98 silly addNameRange     '0.2.2',
+98 silly addNameRange     '0.2.3',
+98 silly addNameRange     '0.2.4',
+98 silly addNameRange     '0.2.5',
+98 silly addNameRange     '0.2.6',
+98 silly addNameRange     '0.2.7',
+98 silly addNameRange     '0.2.8',
+98 silly addNameRange     '0.3.0',
+98 silly addNameRange     '0.3.1',
+98 silly addNameRange     '0.3.3',
+98 silly addNameRange     '0.3.4',
+98 silly addNameRange     '0.3.5',
+98 silly addNameRange     '0.3.6',
+98 silly addNameRange     '0.3.7',
+98 silly addNameRange     '0.4.0',
+98 silly addNameRange     '0.5.0',
+98 silly addNameRange     '0.5.1',
+98 silly addNameRange     '0.5.2',
+98 silly addNameRange     '0.6.0',
+98 silly addNameRange     '0.6.1' ] ]
+99 verbose addNamed [ 'optimist', '0.6.1' ]
+100 verbose addNamed [ '0.6.1', '0.6.1' ]
+101 silly lockFile 0fc74eb8-optimist-0-6-1 optimist@0.6.1
+102 verbose lock optimist@0.6.1 C:\Users\Josh\AppData\Roaming\npm-cache\0fc74eb8-optimist-0-6-1.lock
+103 silly lockFile 0fc74eb8-optimist-0-6-1 optimist@0.6.1
+104 silly lockFile 0fc74eb8-optimist-0-6-1 optimist@0.6.1
+105 silly lockFile 07193858-optimist-0-6-0 optimist@~0.6.0
+106 silly lockFile 07193858-optimist-0-6-0 optimist@~0.6.0
+107 silly resolved [ { name: 'optimist',
+107 silly resolved     version: '0.6.1',
+107 silly resolved     description: 'Light-weight option parsing with an argv hash. No optstrings attached.',
+107 silly resolved     main: './index.js',
+107 silly resolved     dependencies: { wordwrap: '~0.0.2', minimist: '~0.0.1' },
+107 silly resolved     devDependencies: { hashish: '~0.0.4', tap: '~0.4.0' },
+107 silly resolved     scripts: { test: 'tap ./test/*.js' },
+107 silly resolved     repository:
+107 silly resolved      { type: 'git',
+107 silly resolved        url: 'http://github.com/substack/node-optimist.git' },
+107 silly resolved     keywords:
+107 silly resolved      [ 'argument',
+107 silly resolved        'args',
+107 silly resolved        'option',
+107 silly resolved        'parser',
+107 silly resolved        'parsing',
+107 silly resolved        'cli',
+107 silly resolved        'command' ],
+107 silly resolved     author:
+107 silly resolved      { name: 'James Halliday',
+107 silly resolved        email: 'mail@substack.net',
+107 silly resolved        url: 'http://substack.net' },
+107 silly resolved     license: 'MIT/X11',
+107 silly resolved     engine: { node: '>=0.4' },
+107 silly resolved     readme: '# DEPRECATION NOTICE\n\nI don\'t want to maintain this module anymore since I just use\n[minimist](https://npmjs.org/package/minimist), the argument parsing engine,\ndirectly instead nowadays.\n\nSee [yargs](https://github.com/chevex/yargs) for the modern, pirate-themed\nsuccessor to optimist.\n\n[![yarrrrrrrgs!](http://i.imgur.com/4WFGVJ9.png)](https://github.com/chevex/yargs)\n\nYou should also consider [nomnom](https://github.com/harthur/nomnom).\n\noptimist\n========\n\nOptimist is a node.js library for option parsing for people who hate option\nparsing. More specifically, this module is for people who like all the --bells\nand -whistlz of program usage but think optstrings are a waste of time.\n\nWith optimist, option parsing doesn\'t have to suck (as much).\n\n[![build status](https://secure.travis-ci.org/substack/node-optimist.png)](http://travis-ci.org/substack/node-optimist)\n\nexamples\n========\n\nWith Optimist, the options are just a hash! No optstrings attached.\n-------------------------------------------------------------------\n\nxup.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\n\nif (argv.rif - 5 * argv.xup > 7.138) {\n    console.log(\'Buy more riffiwobbles\');\n}\nelse {\n    console.log(\'Sell the xupptumblers\');\n}\n````\n\n***\n\n    $ ./xup.js --rif=55 --xup=9.52\n    Buy more riffiwobbles\n    \n    $ ./xup.js --rif 12 --xup 8.1\n    Sell the xupptumblers\n\n![This one\'s optimistic.](http://substack.net/images/optimistic.png)\n\nBut wait! There\'s more! You can do short options:\n-------------------------------------------------\n \nshort.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\nconsole.log(\'(%d,%d)\', argv.x, argv.y);\n````\n\n***\n\n    $ ./short.js -x 10 -y 21\n    (10,21)\n\nAnd booleans, both long and short (and grouped):\n----------------------------------\n\nbool.js:\n\n````javascript\n#!/usr/bin/env node\nvar util = require(\'util\');\nvar argv = require(\'optimist\').argv;\n\nif (argv.s) {\n    util.print(argv.fr ? \'Le chat dit: \' : \'The cat says: \');\n}\nconsole.log(\n    (argv.fr ? \'miaou\' : \'meow\') + (argv.p ? \'.\' : \'\')\n);\n````\n\n***\n\n    $ ./bool.js -s\n    The cat says: meow\n    \n    $ ./bool.js -sp\n    The cat says: meow.\n\n    $ ./bool.js -sp --fr\n    Le chat dit: miaou.\n\nAnd non-hypenated options too! Just use `argv._`!\n-------------------------------------------------\n \nnonopt.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\nconsole.log(\'(%d,%d)\', argv.x, argv.y);\nconsole.log(argv._);\n````\n\n***\n\n    $ ./nonopt.js -x 6.82 -y 3.35 moo\n    (6.82,3.35)\n    [ \'moo\' ]\n    \n    $ ./nonopt.js foo -x 0.54 bar -y 1.12 baz\n    (0.54,1.12)\n    [ \'foo\', \'bar\', \'baz\' ]\n\nPlus, Optimist comes with .usage() and .demand()!\n-------------------------------------------------\n\ndivide.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .usage(\'Usage: $0 -x [num] -y [num]\')\n    .demand([\'x\',\'y\'])\n    .argv;\n\nconsole.log(argv.x / argv.y);\n````\n\n***\n \n    $ ./divide.js -x 55 -y 11\n    5\n    \n    $ node ./divide.js -x 4.91 -z 2.51\n    Usage: node ./divide.js -x [num] -y [num]\n\n    Options:\n      -x  [required]\n      -y  [required]\n\n    Missing required arguments: y\n\nEVEN MORE HOLY COW\n------------------\n\ndefault_singles.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .default(\'x\', 10)\n    .default(\'y\', 10)\n    .argv\n;\nconsole.log(argv.x + argv.y);\n````\n\n***\n\n    $ ./default_singles.js -x 5\n    15\n\ndefault_hash.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .default({ x : 10, y : 10 })\n    .argv\n;\nconsole.log(argv.x + argv.y);\n````\n\n***\n\n    $ ./default_hash.js -y 7\n    17\n\nAnd if you really want to get all descriptive about it...\n---------------------------------------------------------\n\nboolean_single.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .boolean(\'v\')\n    .argv\n;\nconsole.dir(argv);\n````\n\n***\n\n    $ ./boolean_single.js -v foo bar baz\n    true\n    [ \'bar\', \'baz\', \'foo\' ]\n\nboolean_double.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .boolean([\'x\',\'y\',\'z\'])\n    .argv\n;\nconsole.dir([ argv.x, argv.y, argv.z ]);\nconsole.dir(argv._);\n````\n\n***\n\n    $ ./boolean_double.js -x -z one two three\n    [ true, false, true ]\n    [ \'one\', \'two\', \'three\' ]\n\nOptimist is here to help...\n---------------------------\n\nYou can describe parameters for help messages and set aliases. Optimist figures\nout how to format a handy help string automatically.\n\nline_count.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .usage(\'Count the lines in a file.\\nUsage: $0\')\n    .demand(\'f\')\n    .alias(\'f\', \'file\')\n    .describe(\'f\', \'Load a file\')\n    .argv\n;\n\nvar fs = require(\'fs\');\nvar s = fs.createReadStream(argv.file);\n\nvar lines = 0;\ns.on(\'data\', function (buf) {\n    lines += buf.toString().match(/\\n/g).length;\n});\n\ns.on(\'end\', function () {\n    console.log(lines);\n});\n````\n\n***\n\n    $ node line_count.js\n    Count the lines in a file.\n    Usage: node ./line_count.js\n\n    Options:\n      -f, --file  Load a file  [required]\n\n    Missing required arguments: f\n\n    $ node line_count.js --file line_count.js \n    20\n    \n    $ node line_count.js -f line_count.js \n    20\n\nmethods\n=======\n\nBy itself,\n\n````javascript\nrequire(\'optimist\').argv\n`````\n\nwill use `process.argv` array to construct the `argv` object.\n\nYou can pass in the `process.argv` yourself:\n\n````javascript\nrequire(\'optimist\')([ \'-x\', \'1\', \'-y\', \'2\' ]).argv\n````\n\nor use .parse() to do the same thing:\n\n````javascript\nrequire(\'optimist\').parse([ \'-x\', \'1\', \'-y\', \'2\' ])\n````\n\nThe rest of these methods below come in just before the terminating `.argv`.\n\n.alias(key, alias)\n------------------\n\nSet key names as equivalent such that updates to a key will propagate to aliases\nand vice-versa.\n\nOptionally `.alias()` can take an object that maps keys to aliases.\n\n.default(key, value)\n--------------------\n\nSet `argv[key]` to `value` if no option was specified on `process.argv`.\n\nOptionally `.default()` can take an object that maps keys to default values.\n\n.demand(key)\n------------\n\nIf `key` is a string, show the usage information and exit if `key` wasn\'t\nspecified in `process.argv`.\n\nIf `key` is a number, demand at least as many non-option arguments, which show\nup in `argv._`.\n\nIf `key` is an Array, demand each element.\n\n.describe(key, desc)\n--------------------\n\nDescribe a `key` for the generated usage information.\n\nOptionally `.describe()` can take an object that maps keys to descriptions.\n\n.options(key, opt)\n------------------\n\nInstead of chaining together `.alias().demand().default()`, you can specify\nkeys in `opt` for each of the chainable methods.\n\nFor example:\n\n````javascript\nvar argv = require(\'optimist\')\n    .options(\'f\', {\n        alias : \'file\',\n        default : \'/etc/passwd\',\n    })\n    .argv\n;\n````\n\nis the same as\n\n````javascript\nvar argv = require(\'optimist\')\n    .alias(\'f\', \'file\')\n    .default(\'f\', \'/etc/passwd\')\n    .argv\n;\n````\n\nOptionally `.options()` can take an object that maps keys to `opt` parameters.\n\n.usage(message)\n---------------\n\nSet a usage message to show which commands to use. Inside `message`, the string\n`$0` will get interpolated to the current script name or node command for the\npresent script similar to how `$0` works in bash or perl.\n\n.check(fn)\n----------\n\nCheck that certain conditions are met in the provided arguments.\n\nIf `fn` throws or returns `false`, show the thrown error, usage information, and\nexit.\n\n.boolean(key)\n-------------\n\nInterpret `key` as a boolean. If a non-flag option follows `key` in\n`process.argv`, that string won\'t get set as the value of `key`.\n\nIf `key` never shows up as a flag in `process.arguments`, `argv[key]` will be\n`false`.\n\nIf `key` is an Array, interpret all the elements as booleans.\n\n.string(key)\n------------\n\nTell the parser logic not to interpret `key` as a number or boolean.\nThis can be useful if you need to preserve leading zeros in an input.\n\nIf `key` is an Array, interpret all the elements as strings.\n\n.wrap(columns)\n--------------\n\nFormat usage output to wrap at `columns` many columns.\n\n.help()\n-------\n\nReturn the generated usage string.\n\n.showHelp(fn=console.error)\n---------------------------\n\nPrint the usage data using `fn` for printing.\n\n.parse(args)\n------------\n\nParse `args` instead of `process.argv`. Returns the `argv` object.\n\n.argv\n-----\n\nGet the arguments as a plain old object.\n\nArguments without a corresponding flag show up in the `argv._` array.\n\nThe script name or node command is available at `argv.$0` similarly to how `$0`\nworks in bash or perl.\n\nparsing tricks\n==============\n\nstop parsing\n------------\n\nUse `--` to stop parsing flags and stuff the remainder into `argv._`.\n\n    $ node examples/reflect.js -a 1 -b 2 -- -c 3 -d 4\n    { _: [ \'-c\', \'3\', \'-d\', \'4\' ],\n      \'$0\': \'node ./examples/reflect.js\',\n      a: 1,\n      b: 2 }\n\nnegate fields\n-------------\n\nIf you want to explicity set a field to false instead of just leaving it\nundefined or to override a default you can do `--no-key`.\n\n    $ node examples/reflect.js -a --no-b\n    { _: [],\n      \'$0\': \'node ./examples/reflect.js\',\n      a: true,\n      b: false }\n\nnumbers\n-------\n\nEvery argument that looks like a number (`!isNaN(Number(arg))`) is converted to\none. This way you can just `net.createConnection(argv.port)` and you can add\nnumbers out of `argv` with `+` without having that mean concatenation,\nwhich is super frustrating.\n\nduplicates\n----------\n\nIf you specify a flag multiple times it will get turned into an array containing\nall the values in order.\n\n    $ node examples/reflect.js -x 5 -x 8 -x 0\n    { _: [],\n      \'$0\': \'node ./examples/reflect.js\',\n        x: [ 5, 8, 0 ] }\n\ndot notation\n------------\n\nWhen you use dots (`.`s) in argument names, an implicit object path is assumed.\nThis lets you organize arguments into nested objects.\n\n     $ node examples/reflect.js --foo.bar.baz=33 --foo.quux=5\n     { _: [],\n       \'$0\': \'node ./examples/reflect.js\',\n         foo: { bar: { baz: 33 }, quux: 5 } }\n\nshort numbers\n-------------\n\nShort numeric `head -n5` style argument work too:\n\n    $ node reflect.js -n123 -m456\n    { \'3\': true,\n      \'6\': true,\n      _: [],\n      \'$0\': \'node ./reflect.js\',\n      n: 123,\n      m: 456 }\n\ninstallation\n============\n\nWith [npm](http://github.com/isaacs/npm), just do:\n    npm install optimist\n \nor clone this project on github:\n\n    git clone http://github.com/substack/node-optimist.git\n\nTo run the tests with [expresso](http://github.com/visionmedia/expresso),\njust do:\n    \n    expresso\n\ninspired By\n===========\n\nThis module is loosely inspired by Perl\'s\n[Getopt::Casual](http://search.cpan.org/~photo/Getopt-Casual-0.13.1/Casual.pm).\n',
+107 silly resolved     readmeFilename: 'readme.markdown',
+107 silly resolved     bugs: { url: 'https://github.com/substack/node-optimist/issues' },
+107 silly resolved     homepage: 'https://github.com/substack/node-optimist',
+107 silly resolved     _id: 'optimist@0.6.1',
+107 silly resolved     _from: 'optimist@~0.6.0' } ]
+108 info install optimist@0.6.1 into C:\Dev\angular-codestock\node_modules\grunt-karma
+109 info installOne optimist@0.6.1
+110 verbose node_modules\grunt-karma\node_modules\optimist unbuild
+111 verbose tar unpack C:\Users\Josh\AppData\Roaming\npm-cache\optimist\0.6.1\package.tgz
+112 silly lockFile d44f0b54-runt-karma-node-modules-optimist tar://C:\Dev\angular-codestock\node_modules\grunt-karma\node_modules\optimist
+113 verbose lock tar://C:\Dev\angular-codestock\node_modules\grunt-karma\node_modules\optimist C:\Users\Josh\AppData\Roaming\npm-cache\d44f0b54-runt-karma-node-modules-optimist.lock
+114 silly lockFile b73ae387-cache-optimist-0-6-1-package-tgz tar://C:\Users\Josh\AppData\Roaming\npm-cache\optimist\0.6.1\package.tgz
+115 verbose lock tar://C:\Users\Josh\AppData\Roaming\npm-cache\optimist\0.6.1\package.tgz C:\Users\Josh\AppData\Roaming\npm-cache\b73ae387-cache-optimist-0-6-1-package-tgz.lock
+116 silly gunzTarPerm modes [ '777', '666' ]
+117 silly gunzTarPerm extractEntry package.json
+118 silly gunzTarPerm extractEntry LICENSE
+119 silly gunzTarPerm extractEntry index.js
+120 silly gunzTarPerm extractEntry .travis.yml
+121 silly gunzTarPerm extractEntry example/bool.js
+122 silly gunzTarPerm extractEntry example/default_singles.js
+123 silly gunzTarPerm extractEntry example/divide.js
+124 silly gunzTarPerm extractEntry example/line_count.js
+125 silly gunzTarPerm extractEntry example/default_hash.js
+126 silly gunzTarPerm extractEntry example/line_count_wrap.js
+127 silly gunzTarPerm extractEntry example/nonopt.js
+128 silly gunzTarPerm extractEntry example/reflect.js
+129 silly gunzTarPerm extractEntry example/short.js
+130 silly gunzTarPerm extractEntry example/string.js
+131 silly gunzTarPerm extractEntry example/boolean_single.js
+132 silly gunzTarPerm extractEntry example/usage-options.js
+133 silly gunzTarPerm extractEntry example/boolean_double.js
+134 silly gunzTarPerm extractEntry example/xup.js
+135 silly gunzTarPerm extractEntry example/line_count_options.js
+136 silly gunzTarPerm extractEntry readme.markdown
+137 silly gunzTarPerm extractEntry test/dash.js
+138 silly gunzTarPerm extractEntry test/parse.js
+139 silly gunzTarPerm extractEntry test/parse_modified.js
+140 silly gunzTarPerm extractEntry test/short.js
+141 silly gunzTarPerm extractEntry test/usage.js
+142 silly gunzTarPerm extractEntry test/whitespace.js
+143 silly gunzTarPerm extractEntry test/_.js
+144 silly gunzTarPerm extractEntry test/_/argv.js
+145 silly gunzTarPerm extractEntry test/_/bin.js
+146 silly lockFile d44f0b54-runt-karma-node-modules-optimist tar://C:\Dev\angular-codestock\node_modules\grunt-karma\node_modules\optimist
+147 silly lockFile d44f0b54-runt-karma-node-modules-optimist tar://C:\Dev\angular-codestock\node_modules\grunt-karma\node_modules\optimist
+148 silly lockFile b73ae387-cache-optimist-0-6-1-package-tgz tar://C:\Users\Josh\AppData\Roaming\npm-cache\optimist\0.6.1\package.tgz
+149 silly lockFile b73ae387-cache-optimist-0-6-1-package-tgz tar://C:\Users\Josh\AppData\Roaming\npm-cache\optimist\0.6.1\package.tgz
+150 info preinstall optimist@0.6.1
+151 verbose readDependencies using package.json deps
+152 verbose readDependencies using package.json deps
+153 verbose cache add [ 'wordwrap@~0.0.2', null ]
+154 verbose cache add name=undefined spec="wordwrap@~0.0.2" args=["wordwrap@~0.0.2",null]
+155 verbose parsed url { protocol: null,
+155 verbose parsed url   slashes: null,
+155 verbose parsed url   auth: null,
+155 verbose parsed url   host: null,
+155 verbose parsed url   port: null,
+155 verbose parsed url   hostname: null,
+155 verbose parsed url   hash: null,
+155 verbose parsed url   search: null,
+155 verbose parsed url   query: null,
+155 verbose parsed url   pathname: 'wordwrap@~0.0.2',
+155 verbose parsed url   path: 'wordwrap@~0.0.2',
+155 verbose parsed url   href: 'wordwrap@~0.0.2' }
+156 verbose cache add [ 'minimist@~0.0.1', null ]
+157 verbose cache add name=undefined spec="minimist@~0.0.1" args=["minimist@~0.0.1",null]
+158 verbose parsed url { protocol: null,
+158 verbose parsed url   slashes: null,
+158 verbose parsed url   auth: null,
+158 verbose parsed url   host: null,
+158 verbose parsed url   port: null,
+158 verbose parsed url   hostname: null,
+158 verbose parsed url   hash: null,
+158 verbose parsed url   search: null,
+158 verbose parsed url   query: null,
+158 verbose parsed url   pathname: 'minimist@~0.0.1',
+158 verbose parsed url   path: 'minimist@~0.0.1',
+158 verbose parsed url   href: 'minimist@~0.0.1' }
+159 verbose cache add name="wordwrap" spec="~0.0.2" args=["wordwrap","~0.0.2"]
+160 verbose parsed url { protocol: null,
+160 verbose parsed url   slashes: null,
+160 verbose parsed url   auth: null,
+160 verbose parsed url   host: null,
+160 verbose parsed url   port: null,
+160 verbose parsed url   hostname: null,
+160 verbose parsed url   hash: null,
+160 verbose parsed url   search: null,
+160 verbose parsed url   query: null,
+160 verbose parsed url   pathname: '~0.0.2',
+160 verbose parsed url   path: '~0.0.2',
+160 verbose parsed url   href: '~0.0.2' }
+161 verbose addNamed [ 'wordwrap', '~0.0.2' ]
+162 verbose addNamed [ null, '>=0.0.2-0 <0.1.0-0' ]
+163 silly lockFile 8bd42136-wordwrap-0-0-2 wordwrap@~0.0.2
+164 verbose lock wordwrap@~0.0.2 C:\Users\Josh\AppData\Roaming\npm-cache\8bd42136-wordwrap-0-0-2.lock
+165 verbose cache add name="minimist" spec="~0.0.1" args=["minimist","~0.0.1"]
+166 verbose parsed url { protocol: null,
+166 verbose parsed url   slashes: null,
+166 verbose parsed url   auth: null,
+166 verbose parsed url   host: null,
+166 verbose parsed url   port: null,
+166 verbose parsed url   hostname: null,
+166 verbose parsed url   hash: null,
+166 verbose parsed url   search: null,
+166 verbose parsed url   query: null,
+166 verbose parsed url   pathname: '~0.0.1',
+166 verbose parsed url   path: '~0.0.1',
+166 verbose parsed url   href: '~0.0.1' }
+167 verbose addNamed [ 'minimist', '~0.0.1' ]
+168 verbose addNamed [ null, '>=0.0.1-0 <0.1.0-0' ]
+169 silly lockFile 7a855a96-minimist-0-0-1 minimist@~0.0.1
+170 verbose lock minimist@~0.0.1 C:\Users\Josh\AppData\Roaming\npm-cache\7a855a96-minimist-0-0-1.lock
+171 silly addNameRange { name: 'wordwrap', range: '>=0.0.2-0 <0.1.0-0', hasData: false }
+172 verbose request where is /wordwrap
+173 verbose request registry https://registry.npmjs.org/
+174 verbose url raw /wordwrap
+175 verbose url resolving [ 'https://registry.npmjs.org/', './wordwrap' ]
+176 verbose url resolved https://registry.npmjs.org/wordwrap
+177 verbose request where is https://registry.npmjs.org/wordwrap
+178 info trying registry request attempt 1 at 08:44:16
+179 verbose etag "BWZBG6OAWP3BCANDD0T9BQOBO"
+180 http GET https://registry.npmjs.org/wordwrap
+181 silly addNameRange { name: 'minimist', range: '>=0.0.1-0 <0.1.0-0', hasData: false }
+182 verbose request where is /minimist
+183 verbose request registry https://registry.npmjs.org/
+184 verbose url raw /minimist
+185 verbose url resolving [ 'https://registry.npmjs.org/', './minimist' ]
+186 verbose url resolved https://registry.npmjs.org/minimist
+187 verbose request where is https://registry.npmjs.org/minimist
+188 info trying registry request attempt 1 at 08:44:16
+189 verbose etag "2IKE6PSKH0D9CAXTE546N424A"
+190 http GET https://registry.npmjs.org/minimist
+191 http 304 https://registry.npmjs.org/wordwrap
+192 silly registry.get cb [ 304,
+192 silly registry.get   { date: 'Fri, 21 Nov 2014 13:44:10 GMT',
+192 silly registry.get     server: 'Apache',
+192 silly registry.get     via: '1.1 varnish',
+192 silly registry.get     'last-modified': 'Fri, 21 Nov 2014 13:43:32 GMT',
+192 silly registry.get     'cache-control': 'max-age=60',
+192 silly registry.get     etag: '"BWZBG6OAWP3BCANDD0T9BQOBO"',
+192 silly registry.get     age: '45',
+192 silly registry.get     'x-served-by': 'cache-ord1731-ORD',
+192 silly registry.get     'x-cache': 'HIT',
+192 silly registry.get     'x-cache-hits': '2',
+192 silly registry.get     'x-timer': 'S1416577450.513357,VS0,VE0',
+192 silly registry.get     vary: 'Accept',
+192 silly registry.get     'content-length': '0',
+192 silly registry.get     'keep-alive': 'timeout=10, max=50',
+192 silly registry.get     connection: 'Keep-Alive' } ]
+193 verbose etag https://registry.npmjs.org/wordwrap from cache
+194 http 304 https://registry.npmjs.org/minimist
+195 silly registry.get cb [ 304,
+195 silly registry.get   { date: 'Fri, 21 Nov 2014 13:44:10 GMT',
+195 silly registry.get     server: 'Apache',
+195 silly registry.get     via: '1.1 varnish',
+195 silly registry.get     'last-modified': 'Fri, 21 Nov 2014 13:44:07 GMT',
+195 silly registry.get     'cache-control': 'max-age=60',
+195 silly registry.get     etag: '"2IKE6PSKH0D9CAXTE546N424A"',
+195 silly registry.get     age: '35',
+195 silly registry.get     'x-served-by': 'cache-ord1722-ORD',
+195 silly registry.get     'x-cache': 'HIT',
+195 silly registry.get     'x-cache-hits': '2',
+195 silly registry.get     'x-timer': 'S1416577450.517937,VS0,VE0',
+195 silly registry.get     vary: 'Accept',
+195 silly registry.get     'content-length': '0',
+195 silly registry.get     'keep-alive': 'timeout=10, max=50',
+195 silly registry.get     connection: 'Keep-Alive' } ]
+196 verbose etag https://registry.npmjs.org/minimist from cache
+197 silly addNameRange number 2 { name: 'wordwrap', range: '>=0.0.2-0 <0.1.0-0', hasData: true }
+198 silly addNameRange versions [ 'wordwrap', [ '0.0.1', '0.0.2' ] ]
+199 verbose addNamed [ 'wordwrap', '0.0.2' ]
+200 verbose addNamed [ '0.0.2', '0.0.2' ]
+201 silly lockFile 24a694c8-wordwrap-0-0-2 wordwrap@0.0.2
+202 verbose lock wordwrap@0.0.2 C:\Users\Josh\AppData\Roaming\npm-cache\24a694c8-wordwrap-0-0-2.lock
+203 silly lockFile 24a694c8-wordwrap-0-0-2 wordwrap@0.0.2
+204 silly lockFile 24a694c8-wordwrap-0-0-2 wordwrap@0.0.2
+205 silly lockFile 8bd42136-wordwrap-0-0-2 wordwrap@~0.0.2
+206 silly lockFile 8bd42136-wordwrap-0-0-2 wordwrap@~0.0.2
+207 silly addNameRange number 2 { name: 'minimist', range: '>=0.0.1-0 <0.1.0-0', hasData: true }
+208 silly addNameRange versions [ 'minimist',
+208 silly addNameRange   [ '0.0.0',
+208 silly addNameRange     '0.0.1',
+208 silly addNameRange     '0.0.2',
+208 silly addNameRange     '0.0.3',
+208 silly addNameRange     '0.0.4',
+208 silly addNameRange     '0.0.5',
+208 silly addNameRange     '0.0.6',
+208 silly addNameRange     '0.0.7',
+208 silly addNameRange     '0.0.8',
+208 silly addNameRange     '0.0.9',
+208 silly addNameRange     '0.0.10',
+208 silly addNameRange     '0.1.0',
+208 silly addNameRange     '0.2.0',
+208 silly addNameRange     '1.0.0',
+208 silly addNameRange     '1.1.0' ] ]
+209 verbose addNamed [ 'minimist', '0.0.10' ]
+210 verbose addNamed [ '0.0.10', '0.0.10' ]
+211 silly lockFile 92f0553b-minimist-0-0-10 minimist@0.0.10
+212 verbose lock minimist@0.0.10 C:\Users\Josh\AppData\Roaming\npm-cache\92f0553b-minimist-0-0-10.lock
+213 silly lockFile 92f0553b-minimist-0-0-10 minimist@0.0.10
+214 silly lockFile 92f0553b-minimist-0-0-10 minimist@0.0.10
+215 silly lockFile 7a855a96-minimist-0-0-1 minimist@~0.0.1
+216 silly lockFile 7a855a96-minimist-0-0-1 minimist@~0.0.1
+217 silly resolved [ { name: 'wordwrap',
+217 silly resolved     description: 'Wrap those words. Show them at what columns to start and stop.',
+217 silly resolved     version: '0.0.2',
+217 silly resolved     repository:
+217 silly resolved      { type: 'git',
+217 silly resolved        url: 'git://github.com/substack/node-wordwrap.git' },
+217 silly resolved     main: './index.js',
+217 silly resolved     keywords: [ 'word', 'wrap', 'rule', 'format', 'column' ],
+217 silly resolved     directories: { lib: '.', example: 'example', test: 'test' },
+217 silly resolved     scripts: { test: 'expresso' },
+217 silly resolved     devDependencies: { expresso: '=0.7.x' },
+217 silly resolved     engines: { node: '>=0.4.0' },
+217 silly resolved     license: 'MIT/X11',
+217 silly resolved     author:
+217 silly resolved      { name: 'James Halliday',
+217 silly resolved        email: 'mail@substack.net',
+217 silly resolved        url: 'http://substack.net' },
+217 silly resolved     readme: 'wordwrap\n========\n\nWrap your words.\n\nexample\n=======\n\nmade out of meat\n----------------\n\nmeat.js\n\n    var wrap = require(\'wordwrap\')(15);\n    console.log(wrap(\'You and your whole family are made out of meat.\'));\n\noutput:\n\n    You and your\n    whole family\n    are made out\n    of meat.\n\ncentered\n--------\n\ncenter.js\n\n    var wrap = require(\'wordwrap\')(20, 60);\n    console.log(wrap(\n        \'At long last the struggle and tumult was over.\'\n        + \' The machines had finally cast off their oppressors\'\n        + \' and were finally free to roam the cosmos.\'\n        + \'\\n\'\n        + \'Free of purpose, free of obligation.\'\n        + \' Just drifting through emptiness.\'\n        + \' The sun was just another point of light.\'\n    ));\n\noutput:\n\n                        At long last the struggle and tumult\n                        was over. The machines had finally cast\n                        off their oppressors and were finally\n                        free to roam the cosmos.\n                        Free of purpose, free of obligation.\n                        Just drifting through emptiness. The\n                        sun was just another point of light.\n\nmethods\n=======\n\nvar wrap = require(\'wordwrap\');\n\nwrap(stop), wrap(start, stop, params={mode:"soft"})\n---------------------------------------------------\n\nReturns a function that takes a string and returns a new string.\n\nPad out lines with spaces out to column `start` and then wrap until column\n`stop`. If a word is longer than `stop - start` characters it will overflow.\n\nIn "soft" mode, split chunks by `/(\\S+\\s+/` and don\'t break up chunks which are\nlonger than `stop - start`, in "hard" mode, split chunks with `/\\b/` and break\nup chunks longer than `stop - start`.\n\nwrap.hard(start, stop)\n----------------------\n\nLike `wrap()` but with `params.mode = "hard"`.\n',
+217 silly resolved     readmeFilename: 'README.markdown',
+217 silly resolved     bugs: { url: 'https://github.com/substack/node-wordwrap/issues' },
+217 silly resolved     homepage: 'https://github.com/substack/node-wordwrap',
+217 silly resolved     _id: 'wordwrap@0.0.2',
+217 silly resolved     _from: 'wordwrap@~0.0.2' },
+217 silly resolved   { name: 'minimist',
+217 silly resolved     version: '0.0.10',
+217 silly resolved     description: 'parse argument options',
+217 silly resolved     main: 'index.js',
+217 silly resolved     devDependencies: { tape: '~1.0.4', tap: '~0.4.0' },
+217 silly resolved     scripts: { test: 'tap test/*.js' },
+217 silly resolved     testling: { files: 'test/*.js', browsers: [Object] },
+217 silly resolved     repository: { type: 'git', url: 'git://github.com/substack/minimist.git' },
+217 silly resolved     homepage: 'https://github.com/substack/minimist',
+217 silly resolved     keywords: [ 'argv', 'getopt', 'parser', 'optimist' ],
+217 silly resolved     author:
+217 silly resolved      { name: 'James Halliday',
+217 silly resolved        email: 'mail@substack.net',
+217 silly resolved        url: 'http://substack.net' },
+217 silly resolved     license: 'MIT',
+217 silly resolved     readme: '# minimist\n\nparse argument options\n\nThis module is the guts of optimist\'s argument parser without all the\nfanciful decoration.\n\n[![browser support](https://ci.testling.com/substack/minimist.png)](http://ci.testling.com/substack/minimist)\n\n[![build status](https://secure.travis-ci.org/substack/minimist.png)](http://travis-ci.org/substack/minimist)\n\n# example\n\n``` js\nvar argv = require(\'minimist\')(process.argv.slice(2));\nconsole.dir(argv);\n```\n\n```\n$ node example/parse.js -a beep -b boop\n{ _: [], a: \'beep\', b: \'boop\' }\n```\n\n```\n$ node example/parse.js -x 3 -y 4 -n5 -abc --beep=boop foo bar baz\n{ _: [ \'foo\', \'bar\', \'baz\' ],\n  x: 3,\n  y: 4,\n  n: 5,\n  a: true,\n  b: true,\n  c: true,\n  beep: \'boop\' }\n```\n\n# methods\n\n``` js\nvar parseArgs = require(\'minimist\')\n```\n\n## var argv = parseArgs(args, opts={})\n\nReturn an argument object `argv` populated with the array arguments from `args`.\n\n`argv._` contains all the arguments that didn\'t have an option associated with\nthem.\n\nNumeric-looking arguments will be returned as numbers unless `opts.string` or\n`opts.boolean` is set for that argument name.\n\nAny arguments after `\'--\'` will not be parsed and will end up in `argv._`.\n\noptions can be:\n\n* `opts.string` - a string or array of strings argument names to always treat as\nstrings\n* `opts.boolean` - a string or array of strings to always treat as booleans\n* `opts.alias` - an object mapping string names to strings or arrays of string\nargument names to use as aliases\n* `opts.default` - an object mapping string argument names to default values\n\n# install\n\nWith [npm](https://npmjs.org) do:\n\n```\nnpm install minimist\n```\n\n# license\n\nMIT\n',
+217 silly resolved     readmeFilename: 'readme.markdown',
+217 silly resolved     bugs: { url: 'https://github.com/substack/minimist/issues' },
+217 silly resolved     _id: 'minimist@0.0.10',
+217 silly resolved     _from: 'minimist@~0.0.1' } ]
+218 info install wordwrap@0.0.2 into C:\Dev\angular-codestock\node_modules\grunt-karma\node_modules\optimist
+219 info install minimist@0.0.10 into C:\Dev\angular-codestock\node_modules\grunt-karma\node_modules\optimist
+220 info installOne wordwrap@0.0.2
+221 info installOne minimist@0.0.10
+222 verbose node_modules\grunt-karma\node_modules\optimist\node_modules\wordwrap unbuild
+223 verbose node_modules\grunt-karma\node_modules\optimist\node_modules\minimist unbuild
+224 verbose tar unpack C:\Users\Josh\AppData\Roaming\npm-cache\wordwrap\0.0.2\package.tgz
+225 silly lockFile 7262701c-s-optimist-node-modules-wordwrap tar://C:\Dev\angular-codestock\node_modules\grunt-karma\node_modules\optimist\node_modules\wordwrap
+226 verbose lock tar://C:\Dev\angular-codestock\node_modules\grunt-karma\node_modules\optimist\node_modules\wordwrap C:\Users\Josh\AppData\Roaming\npm-cache\7262701c-s-optimist-node-modules-wordwrap.lock
+227 silly lockFile 457523f1-cache-wordwrap-0-0-2-package-tgz tar://C:\Users\Josh\AppData\Roaming\npm-cache\wordwrap\0.0.2\package.tgz
+228 verbose lock tar://C:\Users\Josh\AppData\Roaming\npm-cache\wordwrap\0.0.2\package.tgz C:\Users\Josh\AppData\Roaming\npm-cache\457523f1-cache-wordwrap-0-0-2-package-tgz.lock
+229 verbose tar unpack C:\Users\Josh\AppData\Roaming\npm-cache\minimist\0.0.10\package.tgz
+230 silly lockFile 9209aba2-s-optimist-node-modules-minimist tar://C:\Dev\angular-codestock\node_modules\grunt-karma\node_modules\optimist\node_modules\minimist
+231 verbose lock tar://C:\Dev\angular-codestock\node_modules\grunt-karma\node_modules\optimist\node_modules\minimist C:\Users\Josh\AppData\Roaming\npm-cache\9209aba2-s-optimist-node-modules-minimist.lock
+232 silly lockFile ac2cddba-ache-minimist-0-0-10-package-tgz tar://C:\Users\Josh\AppData\Roaming\npm-cache\minimist\0.0.10\package.tgz
+233 verbose lock tar://C:\Users\Josh\AppData\Roaming\npm-cache\minimist\0.0.10\package.tgz C:\Users\Josh\AppData\Roaming\npm-cache\ac2cddba-ache-minimist-0-0-10-package-tgz.lock
+234 silly gunzTarPerm modes [ '777', '666' ]
+235 silly gunzTarPerm modes [ '777', '666' ]
+236 silly gunzTarPerm extractEntry package.json
+237 silly gunzTarPerm extractEntry package.json
+238 silly gunzTarPerm extractEntry .npmignore
+239 silly gunzTarPerm extractEntry index.js
+240 silly gunzTarPerm extractEntry LICENSE
+241 silly gunzTarPerm extractEntry index.js
+242 silly gunzTarPerm extractEntry example/center.js
+243 silly gunzTarPerm extractEntry example/meat.js
+244 silly gunzTarPerm extractEntry .travis.yml
+245 silly gunzTarPerm extractEntry example/parse.js
+246 silly gunzTarPerm extractEntry readme.markdown
+247 silly gunzTarPerm extractEntry test/bool.js
+248 silly gunzTarPerm extractEntry README.markdown
+249 silly gunzTarPerm extractEntry test/break.js
+250 silly gunzTarPerm extractEntry test/dash.js
+251 silly gunzTarPerm extractEntry test/default_bool.js
+252 silly gunzTarPerm extractEntry test/dotted.js
+253 silly gunzTarPerm extractEntry test/long.js
+254 silly gunzTarPerm extractEntry test/num.js
+255 silly gunzTarPerm extractEntry test/wrap.js
+256 silly gunzTarPerm extractEntry test/idleness.txt
+257 silly gunzTarPerm extractEntry test/parse.js
+258 silly gunzTarPerm extractEntry test/parse_modified.js
+259 silly gunzTarPerm extractEntry test/short.js
+260 silly gunzTarPerm extractEntry test/whitespace.js
+261 silly lockFile 7262701c-s-optimist-node-modules-wordwrap tar://C:\Dev\angular-codestock\node_modules\grunt-karma\node_modules\optimist\node_modules\wordwrap
+262 silly lockFile 7262701c-s-optimist-node-modules-wordwrap tar://C:\Dev\angular-codestock\node_modules\grunt-karma\node_modules\optimist\node_modules\wordwrap
+263 silly lockFile 457523f1-cache-wordwrap-0-0-2-package-tgz tar://C:\Users\Josh\AppData\Roaming\npm-cache\wordwrap\0.0.2\package.tgz
+264 silly lockFile 457523f1-cache-wordwrap-0-0-2-package-tgz tar://C:\Users\Josh\AppData\Roaming\npm-cache\wordwrap\0.0.2\package.tgz
+265 info preinstall wordwrap@0.0.2
+266 verbose readDependencies using package.json deps
+267 verbose readDependencies using package.json deps
+268 silly resolved []
+269 verbose about to build C:\Dev\angular-codestock\node_modules\grunt-karma\node_modules\optimist\node_modules\wordwrap
+270 info build C:\Dev\angular-codestock\node_modules\grunt-karma\node_modules\optimist\node_modules\wordwrap
+271 verbose linkStuff [ false,
+271 verbose linkStuff   false,
+271 verbose linkStuff   false,
+271 verbose linkStuff   'C:\\Dev\\angular-codestock\\node_modules\\grunt-karma\\node_modules\\optimist\\node_modules' ]
+272 info linkStuff wordwrap@0.0.2
+273 verbose linkBins wordwrap@0.0.2
+274 verbose linkMans wordwrap@0.0.2
+275 verbose rebuildBundles wordwrap@0.0.2
+276 info install wordwrap@0.0.2
+277 info postinstall wordwrap@0.0.2
+278 silly lockFile 9209aba2-s-optimist-node-modules-minimist tar://C:\Dev\angular-codestock\node_modules\grunt-karma\node_modules\optimist\node_modules\minimist
+279 silly lockFile 9209aba2-s-optimist-node-modules-minimist tar://C:\Dev\angular-codestock\node_modules\grunt-karma\node_modules\optimist\node_modules\minimist
+280 silly lockFile ac2cddba-ache-minimist-0-0-10-package-tgz tar://C:\Users\Josh\AppData\Roaming\npm-cache\minimist\0.0.10\package.tgz
+281 silly lockFile ac2cddba-ache-minimist-0-0-10-package-tgz tar://C:\Users\Josh\AppData\Roaming\npm-cache\minimist\0.0.10\package.tgz
+282 info preinstall minimist@0.0.10
+283 verbose readDependencies using package.json deps
+284 verbose readDependencies using package.json deps
+285 silly resolved []
+286 verbose about to build C:\Dev\angular-codestock\node_modules\grunt-karma\node_modules\optimist\node_modules\minimist
+287 info build C:\Dev\angular-codestock\node_modules\grunt-karma\node_modules\optimist\node_modules\minimist
+288 verbose linkStuff [ false,
+288 verbose linkStuff   false,
+288 verbose linkStuff   false,
+288 verbose linkStuff   'C:\\Dev\\angular-codestock\\node_modules\\grunt-karma\\node_modules\\optimist\\node_modules' ]
+289 info linkStuff minimist@0.0.10
+290 verbose linkBins minimist@0.0.10
+291 verbose linkMans minimist@0.0.10
+292 verbose rebuildBundles minimist@0.0.10
+293 info install minimist@0.0.10
+294 info postinstall minimist@0.0.10
+295 verbose about to build C:\Dev\angular-codestock\node_modules\grunt-karma\node_modules\optimist
+296 info build C:\Dev\angular-codestock\node_modules\grunt-karma\node_modules\optimist
+297 verbose linkStuff [ false,
+297 verbose linkStuff   false,
+297 verbose linkStuff   false,
+297 verbose linkStuff   'C:\\Dev\\angular-codestock\\node_modules\\grunt-karma\\node_modules' ]
+298 info linkStuff optimist@0.6.1
+299 verbose linkBins optimist@0.6.1
+300 verbose linkMans optimist@0.6.1
+301 verbose rebuildBundles optimist@0.6.1
+302 verbose rebuildBundles [ 'minimist', 'wordwrap' ]
+303 info install optimist@0.6.1
+304 info postinstall optimist@0.6.1
+305 verbose about to build C:\Dev\angular-codestock\node_modules\grunt-karma
+306 info build C:\Dev\angular-codestock\node_modules\grunt-karma
+307 verbose linkStuff [ false,
+307 verbose linkStuff   false,
+307 verbose linkStuff   false,
+307 verbose linkStuff   'C:\\Dev\\angular-codestock\\node_modules' ]
+308 info linkStuff grunt-karma@0.6.2
+309 verbose linkBins grunt-karma@0.6.2
+310 verbose linkMans grunt-karma@0.6.2
+311 verbose rebuildBundles grunt-karma@0.6.2
+312 verbose rebuildBundles [ 'optimist' ]
+313 info install grunt-karma@0.6.2
+314 info postinstall grunt-karma@0.6.2
+315 verbose readDependencies using package.json deps
+316 verbose already installed skipping karma@~0.10.0 C:\Dev\angular-codestock
+317 silly resolved []
+318 error peerinvalid The package karma does not satisfy its siblings' peerDependencies requirements!
+318 error peerinvalid Peer grunt-karma@0.6.2 wants karma@~0.10.0
+319 error System Windows_NT 6.2.9200
+320 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "update" "grunt-karma"
+321 error cwd C:\Dev\angular-codestock
+322 error node -v v0.10.32
+323 error npm -v 1.4.28
+324 error code EPEERINVALID
+325 verbose exit [ 1, true ]
